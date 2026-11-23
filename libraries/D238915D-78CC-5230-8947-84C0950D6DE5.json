@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D238915D-78CC-5230-8947-84C0950D6DE5",
+  "iconId": "ic_lib_expo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Expo Modules JSI",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "Expo Modules 在 Android 上与 React Native JavaScript Interface 互操作的原生组件。",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-modules-jsi"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Expo Modules JSI",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "Native component for Expo Modules to interoperate with the React Native JavaScript Interface on Android.",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-modules-jsi"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3179,
+      "type": 0,
+      "name": "libexpo-modules-jsi.so",
+      "mode": "exact",
+      "priority": 3179,
+      "label": "Expo Modules JSI",
+      "iconId": "ic_lib_expo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libexpo-modules-jsi.so.json",
+      "examples": {
+        "positive": [
+          "libexpo-modules-jsi.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4D77DCD8-6FE0-5B7C-80E7-8E7085A8A8DB",
+  "iconId": "ic_lib_expo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Expo Modules Worklets",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "Expo Modules Core 与 React Native Worklets 的 Android 集成组件。",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-modules-core/android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Expo Modules Worklets",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "Android integration between Expo Modules Core and React Native Worklets.",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-modules-core/android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3181,
+      "type": 0,
+      "name": "libexpo-modules-worklets.so",
+      "mode": "exact",
+      "priority": 3181,
+      "label": "Expo Modules Worklets",
+      "iconId": "ic_lib_expo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libexpo-modules-worklets.so.json",
+      "examples": {
+        "positive": [
+          "libexpo-modules-worklets.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

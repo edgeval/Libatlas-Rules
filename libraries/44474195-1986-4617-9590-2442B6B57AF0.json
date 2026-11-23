@@ -172,6 +172,50 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3158,
+      "type": 0,
+      "name": "libavmdl_lite.so",
+      "mode": "exact",
+      "priority": 3158,
+      "label": "火山引擎点播 SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libavmdl_lite.so.json",
+      "examples": {
+        "positive": [
+          "libavmdl_lite.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "火山引擎点播 SDK",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "Super12138"
+            ],
+            "description": "字节跳动的视频加载组件。DCloud 的穿山甲 GroMore 集成同时包含此库和 libttmplayer_lite.so。",
+            "source_link": "https://uniapp.dcloud.net.cn/tutorial/android-16kb.html#uni-ad"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "ByteDance video components",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "Super12138"
+            ],
+            "description": "ByteDance video loading component. DCloud lists this file and libttmplayer_lite.so in its Pangle GroMore integration.",
+            "source_link": "https://uniapp.dcloud.net.cn/tutorial/android-16kb.html#uni-ad"
+          }
+        }
+      ]
     }
   ],
   "unreferencedDescriptions": []

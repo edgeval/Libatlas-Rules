@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A4B7737E-9B2E-53BE-B55F-4E7A95FDAB32",
+  "iconId": "ic_lib_expo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Expo Notifications",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Expo 的通知模块，处理推送令牌以及通知的展示、计划与响应。",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-notifications"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Expo Notifications",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Expo notification module for push tokens, presenting and scheduling notifications, and handling responses.",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-notifications"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3202,
+      "type": 1,
+      "name": "expo.modules.notifications.service.ExpoFirebaseMessagingService",
+      "mode": "exact",
+      "priority": 3202,
+      "label": "Expo Notifications",
+      "iconId": "ic_lib_expo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/expo.modules.notifications.service.ExpoFirebaseMessagingService.json",
+      "examples": {
+        "positive": [
+          "expo.modules.notifications.service.ExpoFirebaseMessagingService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3203,
+      "type": 1,
+      "name": "expo.modules.notifications.service.NotificationsService",
+      "mode": "exact",
+      "priority": 3203,
+      "label": "Expo Notifications",
+      "iconId": "ic_lib_expo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/expo.modules.notifications.service.NotificationsService.json",
+      "examples": {
+        "positive": [
+          "expo.modules.notifications.service.NotificationsService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3204,
+      "type": 2,
+      "name": "expo.modules.notifications.service.NotificationForwarderActivity",
+      "mode": "exact",
+      "priority": 3204,
+      "label": "Expo Notifications",
+      "iconId": "ic_lib_expo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/expo.modules.notifications.service.NotificationForwarderActivity.json",
+      "examples": {
+        "positive": [
+          "expo.modules.notifications.service.NotificationForwarderActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

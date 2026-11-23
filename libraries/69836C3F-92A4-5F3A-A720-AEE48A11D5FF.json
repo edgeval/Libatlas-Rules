@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "69836C3F-92A4-5F3A-A720-AEE48A11D5FF",
+  "iconId": "ic_lib_play_store",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Google Play Age Signals",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Google Play 提供的 Android API，用于获取年龄相关信号及处理适用的家长同意流程。",
+        "source_link": "https://developer.android.com/google/play/age-signals/overview"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Google Play Age Signals",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Google Play Android API for obtaining age-related signals and handling applicable parental consent flows.",
+        "source_link": "https://developer.android.com/google/play/age-signals/overview"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3176,
+      "type": 2,
+      "name": "com.google.android.play.agesignals.AgeSharingConsentWrapperActivity",
+      "mode": "exact",
+      "priority": 3176,
+      "label": "Google Play Age Signals",
+      "iconId": "ic_lib_play_store",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.google.android.play.agesignals.AgeSharingConsentWrapperActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.play.agesignals.AgeSharingConsentWrapperActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

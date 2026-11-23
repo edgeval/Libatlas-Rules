@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7CE53EBE-85F0-53A1-8157-0ABB39B9C479",
+  "iconId": "ic_lib_expo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Expo WebBrowser",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Expo 的浏览器模块，在 Android 应用中通过自定义标签页打开网站。",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-web-browser"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Expo WebBrowser",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Expo browser module that opens websites in Android Custom Tabs.",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-web-browser"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3210,
+      "type": 2,
+      "name": "expo.modules.webbrowser.BrowserProxyActivity",
+      "mode": "exact",
+      "priority": 3210,
+      "label": "Expo WebBrowser",
+      "iconId": "ic_lib_expo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/expo.modules.webbrowser.BrowserProxyActivity.json",
+      "examples": {
+        "positive": [
+          "expo.modules.webbrowser.BrowserProxyActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

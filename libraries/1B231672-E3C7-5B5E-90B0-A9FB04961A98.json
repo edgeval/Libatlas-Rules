@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1B231672-E3C7-5B5E-90B0-A9FB04961A98",
+  "iconId": "ic_lib_square",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Zstd KMP",
+        "dev_team": "Square",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "Zstandard 压缩算法的 Kotlin Multiplatform 封装。",
+        "source_link": "https://github.com/square/zstd-kmp"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Zstd KMP",
+        "dev_team": "Square",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "Kotlin Multiplatform bindings for the Zstandard compression library.",
+        "source_link": "https://github.com/square/zstd-kmp"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3182,
+      "type": 0,
+      "name": "libzstd-kmp.so",
+      "mode": "exact",
+      "priority": 3182,
+      "label": "Zstd KMP",
+      "iconId": "ic_lib_square",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libzstd-kmp.so.json",
+      "examples": {
+        "positive": [
+          "libzstd-kmp.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

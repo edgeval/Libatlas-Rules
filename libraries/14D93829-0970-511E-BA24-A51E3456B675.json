@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "14D93829-0970-511E-BA24-A51E3456B675",
+  "iconId": "ic_lib_flutter",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Tracelet",
+        "dev_team": "Ikolvi",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "Flutter 后台定位插件的原生核心，提供位置采集和相关任务。",
+        "source_link": "https://github.com/Ikolvi/Tracelet"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tracelet",
+        "dev_team": "Ikolvi",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "Native core for the Tracelet Flutter plugin, which provides location collection and related background tasks.",
+        "source_link": "https://github.com/Ikolvi/Tracelet"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3184,
+      "type": 0,
+      "name": "libtracelet_core.so",
+      "mode": "exact",
+      "priority": 3184,
+      "label": "Tracelet",
+      "iconId": "ic_lib_flutter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtracelet_core.so.json",
+      "examples": {
+        "positive": [
+          "libtracelet_core.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

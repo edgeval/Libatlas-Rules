@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E9B2839D-F4B3-5221-A58A-9AC10221B7A4",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "DT Exchange",
+        "dev_team": "Digital Turbine",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Digital Turbine 的 Android 广告交易 SDK，部分组件沿用 Fyber 的包名。",
+        "source_link": "https://docs.digitalturbine.com/dt-exchange/sdk-configuration/integrating-the-android-sdk"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "DT Exchange",
+        "dev_team": "Digital Turbine",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Digital Turbine Android ad exchange SDK. Some components retain the Fyber package namespace.",
+        "source_link": "https://docs.digitalturbine.com/dt-exchange/sdk-configuration/integrating-the-android-sdk"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3218,
+      "type": 2,
+      "name": "com.fyber.inneractive.sdk.activities.FyberReportAdActivity",
+      "mode": "exact",
+      "priority": 3218,
+      "label": "DT Exchange",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.fyber.inneractive.sdk.activities.FyberReportAdActivity.json",
+      "examples": {
+        "positive": [
+          "com.fyber.inneractive.sdk.activities.FyberReportAdActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3219,
+      "type": 2,
+      "name": "com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity",
+      "mode": "exact",
+      "priority": 3219,
+      "label": "DT Exchange",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity.json",
+      "examples": {
+        "positive": [
+          "com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3220,
+      "type": 2,
+      "name": "com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity",
+      "mode": "exact",
+      "priority": 3220,
+      "label": "DT Exchange",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity.json",
+      "examples": {
+        "positive": [
+          "com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3221,
+      "type": 2,
+      "name": "com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore",
+      "mode": "exact",
+      "priority": 3221,
+      "label": "DT Exchange",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore.json",
+      "examples": {
+        "positive": [
+          "com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3222,
+      "type": 2,
+      "name": "com.fyber.inneractive.sdk.activities.InternalStoreWebpageActivity",
+      "mode": "exact",
+      "priority": 3222,
+      "label": "DT Exchange",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.fyber.inneractive.sdk.activities.InternalStoreWebpageActivity.json",
+      "examples": {
+        "positive": [
+          "com.fyber.inneractive.sdk.activities.InternalStoreWebpageActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

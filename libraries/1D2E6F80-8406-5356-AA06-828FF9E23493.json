@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1D2E6F80-8406-5356-AA06-828FF9E23493",
+  "iconId": "ic_lib_flutter",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Tracelet Sync",
+        "dev_team": "Ikolvi",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "Tracelet 的同步模块，在本地 SQLite 保存位置记录并通过 HTTP 同步。",
+        "source_link": "https://github.com/Ikolvi/Tracelet/tree/main/packages/tracelet_sync"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tracelet Sync",
+        "dev_team": "Ikolvi",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "Tracelet synchronization component that persists location records in SQLite and synchronizes them over HTTP.",
+        "source_link": "https://github.com/Ikolvi/Tracelet/tree/main/packages/tracelet_sync"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3231,
+      "type": 0,
+      "name": "libtracelet_sync.so",
+      "mode": "exact",
+      "priority": 3231,
+      "label": "Tracelet Sync",
+      "iconId": "ic_lib_flutter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtracelet_sync.so.json",
+      "examples": {
+        "positive": [
+          "libtracelet_sync.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

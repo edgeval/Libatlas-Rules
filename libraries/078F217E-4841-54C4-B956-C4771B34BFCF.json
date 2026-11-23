@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "078F217E-4841-54C4-B956-C4771B34BFCF",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "FileKit",
+        "dev_team": "Vincent Guillebaud",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Kotlin Multiplatform 文件选择与读写库。Android 文件对话框模块包含该 FileProvider。",
+        "source_link": "https://github.com/vinceglb/FileKit"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "FileKit",
+        "dev_team": "Vincent Guillebaud",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Kotlin Multiplatform file picker and file access library. The Android dialogs module supplies this FileProvider.",
+        "source_link": "https://github.com/vinceglb/FileKit"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3213,
+      "type": 4,
+      "name": "io.github.vinceglb.filekit.dialogs.fileprovider.FileKitFileProvider",
+      "mode": "exact",
+      "priority": 3213,
+      "label": "FileKit",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io.github.vinceglb.filekit.dialogs.fileprovider.FileKitFileProvider.json",
+      "examples": {
+        "positive": [
+          "io.github.vinceglb.filekit.dialogs.fileprovider.FileKitFileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

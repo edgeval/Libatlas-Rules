@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2ACEBBFF-8240-5BB4-8C50-D8273D89F1FD",
+  "iconId": "ic_lib_expo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Expo Video",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Expo 的视频播放模块，包含 Android 全屏播放和后台播放组件。",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-video"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Expo Video",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Expo video playback module with Android fullscreen and background playback components.",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-video"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3208,
+      "type": 1,
+      "name": "expo.modules.video.playbackService.ExpoVideoPlaybackService",
+      "mode": "exact",
+      "priority": 3208,
+      "label": "Expo Video",
+      "iconId": "ic_lib_expo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/expo.modules.video.playbackService.ExpoVideoPlaybackService.json",
+      "examples": {
+        "positive": [
+          "expo.modules.video.playbackService.ExpoVideoPlaybackService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3209,
+      "type": 2,
+      "name": "expo.modules.video.FullscreenPlayerActivity",
+      "mode": "exact",
+      "priority": 3209,
+      "label": "Expo Video",
+      "iconId": "ic_lib_expo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/expo.modules.video.FullscreenPlayerActivity.json",
+      "examples": {
+        "positive": [
+          "expo.modules.video.FullscreenPlayerActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

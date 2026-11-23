@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F9B036FE-C41E-5BBF-A3C0-562E386636E1",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "HokoBlur",
+        "dev_team": "HokoFly",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Android 图片和界面模糊库，支持动态更新的模糊效果。",
+        "source_link": "https://github.com/HokoFly/HokoBlur"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "HokoBlur",
+        "dev_team": "HokoFly",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Android blur library for images and views, including dynamically updated blur effects.",
+        "source_link": "https://github.com/HokoFly/HokoBlur"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3193,
+      "type": 0,
+      "name": "libhoko_blur.so",
+      "mode": "exact",
+      "priority": 3193,
+      "label": "HokoBlur",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhoko_blur.so.json",
+      "examples": {
+        "positive": [
+          "libhoko_blur.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "5AAB0044-5C22-5F79-9C62-6FF1B73466ED",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "APNG4Android GIF Decoder",
+        "dev_team": "penfeizhou",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "APNG4Android 的 Android 原生 GIF 解码器，Expo Image 会通过依赖引入它。",
+        "source_link": "https://github.com/penfeizhou/APNG4Android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "APNG4Android GIF Decoder",
+        "dev_team": "penfeizhou",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "The Android native GIF decoder from APNG4Android, included transitively by Expo Image.",
+        "source_link": "https://github.com/penfeizhou/APNG4Android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3183,
+      "type": 0,
+      "name": "libanimation-decoder-gif.so",
+      "mode": "exact",
+      "priority": 3183,
+      "label": "APNG4Android GIF Decoder",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libanimation-decoder-gif.so.json",
+      "examples": {
+        "positive": [
+          "libanimation-decoder-gif.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

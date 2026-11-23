@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 5,
+  "uuid": "5536B82D-FDB0-5AAC-BBF5-AFB00AA0FBB7",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ProRoot",
+        "dev_team": "ProRoot contributors",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Android 上的无 root Linux 用户空间运行时。匹配项覆盖 ProRoot 的主程序与加载组件。",
+        "source_link": "https://github.com/coderredlab/proroot"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ProRoot",
+        "dev_team": "ProRoot contributors",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Rootless Linux userspace runtime for Android. Matches cover ProRoot executables and loader components.",
+        "source_link": "https://github.com/coderredlab/proroot"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3170,
+      "type": 0,
+      "name": "libproroot.so",
+      "mode": "exact",
+      "priority": 3170,
+      "label": "ProRoot",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libproroot.so.json",
+      "examples": {
+        "positive": [
+          "libproroot.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3171,
+      "type": 0,
+      "name": "libproroot-bridge.so",
+      "mode": "exact",
+      "priority": 3171,
+      "label": "ProRoot",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libproroot-bridge.so.json",
+      "examples": {
+        "positive": [
+          "libproroot-bridge.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3172,
+      "type": 0,
+      "name": "libproroot-linker.so",
+      "mode": "exact",
+      "priority": 3172,
+      "label": "ProRoot",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libproroot-linker.so.json",
+      "examples": {
+        "positive": [
+          "libproroot-linker.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3173,
+      "type": 0,
+      "name": "libproroot-runtime.so",
+      "mode": "exact",
+      "priority": 3173,
+      "label": "ProRoot",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libproroot-runtime.so.json",
+      "examples": {
+        "positive": [
+          "libproroot-runtime.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3174,
+      "type": 0,
+      "name": "libproroot-stub-loader.so",
+      "mode": "exact",
+      "priority": 3174,
+      "label": "ProRoot",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libproroot-stub-loader.so.json",
+      "examples": {
+        "positive": [
+          "libproroot-stub-loader.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

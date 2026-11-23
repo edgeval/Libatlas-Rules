@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "EE8DC27C-7016-5A2F-AA6C-E69AA91E76B6",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Zendesk Belvedere",
+        "dev_team": "Zendesk",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Android 图片和文件选择库，支持从相机或其他应用取得附件。",
+        "source_link": "https://github.com/zendesk/belvedere"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Zendesk Belvedere",
+        "dev_team": "Zendesk",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Android image and file picker for collecting attachments from a camera or another app.",
+        "source_link": "https://github.com/zendesk/belvedere"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3186,
+      "type": 4,
+      "name": "com.zendesk.belvedere.BelvedereFileProvider",
+      "mode": "exact",
+      "priority": 3186,
+      "label": "Zendesk Belvedere",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com.zendesk.belvedere.BelvedereFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.zendesk.belvedere.BelvedereFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3187,
+      "type": 4,
+      "name": "zendesk.belvedere.BelvedereFileProvider",
+      "mode": "exact",
+      "priority": 3187,
+      "label": "Zendesk Belvedere",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/zendesk.belvedere.BelvedereFileProvider.json",
+      "examples": {
+        "positive": [
+          "zendesk.belvedere.BelvedereFileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8F6C5F15-7F3D-575E-9515-2836AA1A5D52",
+  "iconId": "ic_lib_expo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Expo FileSystem",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Expo 的文件系统模块，提供应用文件、打包资源和文件下载等接口。",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-file-system"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Expo FileSystem",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Expo file system module for app files, bundled assets, and file downloads.",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-file-system"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3194,
+      "type": 4,
+      "name": "expo.modules.filesystem.FileSystemFileProvider",
+      "mode": "exact",
+      "priority": 3194,
+      "label": "Expo FileSystem",
+      "iconId": "ic_lib_expo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/expo.modules.filesystem.FileSystemFileProvider.json",
+      "examples": {
+        "positive": [
+          "expo.modules.filesystem.FileSystemFileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

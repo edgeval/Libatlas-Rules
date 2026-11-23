@@ -140,6 +140,42 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3177,
+      "type": 0,
+      "name": "libpdfium.so",
+      "mode": "exact",
+      "priority": 3177,
+      "label": "Pdfium",
+      "iconId": "ic_lib_android",
+      "regexName": "libatlas-3177",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/libatlas-3177.json",
+      "examples": {
+        "positive": [
+          "libpdfium.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3178,
+      "type": 0,
+      "name": "libpdfiumjni.so",
+      "mode": "exact",
+      "priority": 3178,
+      "label": "Pdfium",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpdfiumjni.so.json",
+      "examples": {
+        "positive": [
+          "libpdfiumjni.so"
+        ],
+        "negative": []
+      }
     }
   ],
   "unreferencedDescriptions": []

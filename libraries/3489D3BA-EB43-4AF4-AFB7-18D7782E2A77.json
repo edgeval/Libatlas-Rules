@@ -210,6 +210,24 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3226,
+      "type": 4,
+      "name": "io.sentry.ndk.SentryNdkPreloadProvider",
+      "mode": "exact",
+      "priority": 3226,
+      "label": "Sentry",
+      "iconId": "ic_lib_sentry",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io.sentry.ndk.SentryNdkPreloadProvider.json",
+      "examples": {
+        "positive": [
+          "io.sentry.ndk.SentryNdkPreloadProvider"
+        ],
+        "negative": []
+      }
     }
   ],
   "unreferencedDescriptions": []

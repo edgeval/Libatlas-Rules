@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "185A2D2B-0823-5ABA-ADE2-16A003B65FCD",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Health Connect Jetpack SDK",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Jetpack 客户端，可在用户授权下与 Android Health Connect 交换健康和健身数据。",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/health-connect"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Health Connect Jetpack SDK",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Jetpack client for exchanging health and fitness data with Android Health Connect with user permission.",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/health-connect"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3160,
+      "type": 1,
+      "name": "androidx.health.platform.client.impl.sdkservice.HealthDataSdkService",
+      "mode": "exact",
+      "priority": 3160,
+      "label": "Health Connect Jetpack SDK",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/androidx.health.platform.client.impl.sdkservice.HealthDataSdkService.json",
+      "examples": {
+        "positive": [
+          "androidx.health.platform.client.impl.sdkservice.HealthDataSdkService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

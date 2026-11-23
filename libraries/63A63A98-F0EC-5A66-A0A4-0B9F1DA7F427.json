@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "63A63A98-F0EC-5A66-A0A4-0B9F1DA7F427",
+  "iconId": "ic_lib_expo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Expo ImagePicker",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Expo 的媒体选择模块，调用 Android 照片选择界面或相机。",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-image-picker"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Expo ImagePicker",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Expo module that uses Android media pickers and the camera to select images and video.",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-image-picker"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3195,
+      "type": 2,
+      "name": "expo.modules.imagepicker.ExpoCropImageActivity",
+      "mode": "exact",
+      "priority": 3195,
+      "label": "Expo ImagePicker",
+      "iconId": "ic_lib_expo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/expo.modules.imagepicker.ExpoCropImageActivity.json",
+      "examples": {
+        "positive": [
+          "expo.modules.imagepicker.ExpoCropImageActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3196,
+      "type": 4,
+      "name": "expo.modules.imagepicker.fileprovider.ImagePickerFileProvider",
+      "mode": "exact",
+      "priority": 3196,
+      "label": "Expo ImagePicker",
+      "iconId": "ic_lib_expo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/expo.modules.imagepicker.fileprovider.ImagePickerFileProvider.json",
+      "examples": {
+        "positive": [
+          "expo.modules.imagepicker.fileprovider.ImagePickerFileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

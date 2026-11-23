@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4F54BE9A-F90A-5A4D-B699-C02790703823",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LevelDB for Android",
+        "dev_team": "LevelDB contributors",
+        "rule_contributors": [
+          "Super12138"
+        ],
+        "description": "LevelDB 键值存储的 Android 原生封装。多个构建会使用同一文件名，具体封装和版本须结合其他信息确认。",
+        "source_link": "https://github.com/hf/leveldb-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LevelDB for Android",
+        "dev_team": "LevelDB contributors",
+        "rule_contributors": [
+          "Super12138"
+        ],
+        "description": "An Android native wrapper for the LevelDB key-value store. Multiple builds use this filename, so the specific wrapper and version require additional evidence.",
+        "source_link": "https://github.com/hf/leveldb-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3157,
+      "type": 0,
+      "name": "libleveldb-android.so",
+      "mode": "exact",
+      "priority": 3157,
+      "label": "LevelDB for Android",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libleveldb-android.so.json",
+      "examples": {
+        "positive": [
+          "libleveldb-android.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

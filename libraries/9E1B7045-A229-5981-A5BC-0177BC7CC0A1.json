@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9E1B7045-A229-5981-A5BC-0177BC7CC0A1",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Helpshift",
+        "dev_team": "Keywords Studios",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Helpshift 的 Android 应用内客服 SDK，提供帮助中心和客服会话界面。",
+        "source_link": "https://developers.helpshift.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Helpshift",
+        "dev_team": "Keywords Studios",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Helpshift Android in-app customer support SDK for help centers and support conversations.",
+        "source_link": "https://developers.helpshift.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3243,
+      "type": 2,
+      "name": "com.helpshift.activities.HSDebugActivity",
+      "mode": "exact",
+      "priority": 3243,
+      "label": "Helpshift",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.helpshift.activities.HSDebugActivity.json",
+      "examples": {
+        "positive": [
+          "com.helpshift.activities.HSDebugActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3244,
+      "type": 2,
+      "name": "com.helpshift.activities.HSMainActivity",
+      "mode": "exact",
+      "priority": 3244,
+      "label": "Helpshift",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.helpshift.activities.HSMainActivity.json",
+      "examples": {
+        "positive": [
+          "com.helpshift.activities.HSMainActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3245,
+      "type": 2,
+      "name": "com.helpshift.proactive.HSProactiveNotificationActivity",
+      "mode": "exact",
+      "priority": 3245,
+      "label": "Helpshift",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.helpshift.proactive.HSProactiveNotificationActivity.json",
+      "examples": {
+        "positive": [
+          "com.helpshift.proactive.HSProactiveNotificationActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3246,
+      "type": 2,
+      "name": "com.helpshift.unityproxy.activity.UnityDelegateActivity",
+      "mode": "exact",
+      "priority": 3246,
+      "label": "Helpshift",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.helpshift.unityproxy.activity.UnityDelegateActivity.json",
+      "examples": {
+        "positive": [
+          "com.helpshift.unityproxy.activity.UnityDelegateActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3247,
+      "type": 4,
+      "name": "com.helpshift.provider.HelpshiftContentProvider",
+      "mode": "exact",
+      "priority": 3247,
+      "label": "Helpshift",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com.helpshift.provider.HelpshiftContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.helpshift.provider.HelpshiftContentProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

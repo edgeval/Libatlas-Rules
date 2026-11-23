@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2903C1EE-00C0-5B14-8A59-EF8CFCD32ADE",
+  "iconId": "ic_lib_expo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Expo Location",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Expo 的定位模块，提供当前位置、位置更新和后台定位任务。",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-location"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Expo Location",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Expo module for current location, location updates, and background location tasks.",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-location"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3206,
+      "type": 1,
+      "name": "expo.modules.location.services.LocationTaskService",
+      "mode": "exact",
+      "priority": 3206,
+      "label": "Expo Location",
+      "iconId": "ic_lib_expo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/expo.modules.location.services.LocationTaskService.json",
+      "examples": {
+        "positive": [
+          "expo.modules.location.services.LocationTaskService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

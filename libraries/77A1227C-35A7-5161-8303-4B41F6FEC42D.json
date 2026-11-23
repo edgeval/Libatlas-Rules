@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 5,
+  "uuid": "77A1227C-35A7-5161-8303-4B41F6FEC42D",
+  "iconId": "ic_lib_meta",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Facebook SDK for Unity",
+        "dev_team": "Meta",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Facebook 的 Unity 集成 SDK，提供登录、分享和相关游戏服务的 Android 界面。",
+        "source_link": "https://github.com/facebook/facebook-sdk-for-unity"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Facebook SDK for Unity",
+        "dev_team": "Meta",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Facebook integration for Unity, providing Android activities for login, sharing, and related game services.",
+        "source_link": "https://github.com/facebook/facebook-sdk-for-unity"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3248,
+      "type": 2,
+      "name": "com.facebook.unity.AppInviteDialogActivity",
+      "mode": "exact",
+      "priority": 3248,
+      "label": "Facebook SDK for Unity",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.facebook.unity.AppInviteDialogActivity.json",
+      "examples": {
+        "positive": [
+          "com.facebook.unity.AppInviteDialogActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3249,
+      "type": 2,
+      "name": "com.facebook.unity.FBUnityAppLinkActivity",
+      "mode": "exact",
+      "priority": 3249,
+      "label": "Facebook SDK for Unity",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.facebook.unity.FBUnityAppLinkActivity.json",
+      "examples": {
+        "positive": [
+          "com.facebook.unity.FBUnityAppLinkActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3250,
+      "type": 2,
+      "name": "com.facebook.unity.FBUnityDeepLinkingActivity",
+      "mode": "exact",
+      "priority": 3250,
+      "label": "Facebook SDK for Unity",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.facebook.unity.FBUnityDeepLinkingActivity.json",
+      "examples": {
+        "positive": [
+          "com.facebook.unity.FBUnityDeepLinkingActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3251,
+      "type": 2,
+      "name": "com.facebook.unity.FBUnityDialogActivity",
+      "mode": "exact",
+      "priority": 3251,
+      "label": "Facebook SDK for Unity",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.facebook.unity.FBUnityDialogActivity.json",
+      "examples": {
+        "positive": [
+          "com.facebook.unity.FBUnityDialogActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3252,
+      "type": 2,
+      "name": "com.facebook.unity.FBUnityFriendFinderActivity",
+      "mode": "exact",
+      "priority": 3252,
+      "label": "Facebook SDK for Unity",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.facebook.unity.FBUnityFriendFinderActivity.json",
+      "examples": {
+        "positive": [
+          "com.facebook.unity.FBUnityFriendFinderActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3253,
+      "type": 2,
+      "name": "com.facebook.unity.FBUnityGameGroupActivity",
+      "mode": "exact",
+      "priority": 3253,
+      "label": "Facebook SDK for Unity",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.facebook.unity.FBUnityGameGroupActivity.json",
+      "examples": {
+        "positive": [
+          "com.facebook.unity.FBUnityGameGroupActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3254,
+      "type": 2,
+      "name": "com.facebook.unity.FBUnityJoinGameGroupActivity",
+      "mode": "exact",
+      "priority": 3254,
+      "label": "Facebook SDK for Unity",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.facebook.unity.FBUnityJoinGameGroupActivity.json",
+      "examples": {
+        "positive": [
+          "com.facebook.unity.FBUnityJoinGameGroupActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3255,
+      "type": 2,
+      "name": "com.facebook.unity.FBUnityLoginActivity",
+      "mode": "exact",
+      "priority": 3255,
+      "label": "Facebook SDK for Unity",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.facebook.unity.FBUnityLoginActivity.json",
+      "examples": {
+        "positive": [
+          "com.facebook.unity.FBUnityLoginActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3256,
+      "type": 2,
+      "name": "com.facebook.unity.FBUnitySSOActivity",
+      "mode": "exact",
+      "priority": 3256,
+      "label": "Facebook SDK for Unity",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.facebook.unity.FBUnitySSOActivity.json",
+      "examples": {
+        "positive": [
+          "com.facebook.unity.FBUnitySSOActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

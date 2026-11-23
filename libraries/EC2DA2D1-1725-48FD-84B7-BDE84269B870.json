@@ -760,6 +760,78 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3227,
+      "type": 0,
+      "name": "libbuffer_pgl.so",
+      "mode": "exact",
+      "priority": 3227,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbuffer_pgl.so.json",
+      "examples": {
+        "positive": [
+          "libbuffer_pgl.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3228,
+      "type": 0,
+      "name": "libfile_lock_pgl.so",
+      "mode": "exact",
+      "priority": 3228,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfile_lock_pgl.so.json",
+      "examples": {
+        "positive": [
+          "libfile_lock_pgl.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3229,
+      "type": 0,
+      "name": "libpglarmor.so",
+      "mode": "exact",
+      "priority": 3229,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpglarmor.so.json",
+      "examples": {
+        "positive": [
+          "libpglarmor.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3230,
+      "type": 0,
+      "name": "libtt_ugen_layout.so",
+      "mode": "exact",
+      "priority": 3230,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtt_ugen_layout.so.json",
+      "examples": {
+        "positive": [
+          "libtt_ugen_layout.so"
+        ],
+        "negative": []
+      }
     }
   ],
   "unreferencedDescriptions": []

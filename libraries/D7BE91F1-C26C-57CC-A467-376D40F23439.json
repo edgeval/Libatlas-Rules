@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D7BE91F1-C26C-57CC-A467-376D40F23439",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Amazon Appstore IAP",
+        "dev_team": "Amazon",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Amazon Appstore 应用内购买 SDK，提供数字商品购买流程。",
+        "source_link": "https://developer.amazon.com/docs/in-app-purchasing/iap-implement-iap.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Amazon Appstore IAP",
+        "dev_team": "Amazon",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Amazon Appstore SDK for purchasing digital items inside an app.",
+        "source_link": "https://developer.amazon.com/docs/in-app-purchasing/iap-implement-iap.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3185,
+      "type": 3,
+      "name": "com.amazon.device.iap.ResponseReceiver",
+      "mode": "exact",
+      "priority": 3185,
+      "label": "Amazon Appstore IAP",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com.amazon.device.iap.ResponseReceiver.json",
+      "examples": {
+        "positive": [
+          "com.amazon.device.iap.ResponseReceiver"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

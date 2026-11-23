@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "EB552D69-B0CE-5CE8-8291-69C4B693AE62",
+  "iconId": "ic_lib_expo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Expo Modules Core",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "Expo Modules 的核心运行时，为原生模块提供注册及 JavaScript 互操作基础。",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-modules-core"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Expo Modules Core",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "Core runtime for Expo Modules that provides native module registration and JavaScript interoperability.",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-modules-core"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3180,
+      "type": 0,
+      "name": "libexpo-modules-v2.so",
+      "mode": "exact",
+      "priority": 3180,
+      "label": "Expo Modules Core",
+      "iconId": "ic_lib_expo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libexpo-modules-v2.so.json",
+      "examples": {
+        "positive": [
+          "libexpo-modules-v2.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

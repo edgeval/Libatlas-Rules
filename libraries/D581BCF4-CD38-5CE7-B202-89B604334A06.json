@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D581BCF4-CD38-5CE7-B202-89B604334A06",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "PRoot",
+        "dev_team": "PRoot contributors",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "在普通用户权限下提供 Linux 用户空间环境的工具。Android 应用会以不同文件名打包主程序和加载器。",
+        "source_link": "https://github.com/proot-me/PRoot"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "PRoot",
+        "dev_team": "PRoot contributors",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Tool for running a Linux userspace under ordinary user privileges. Android apps package its executable and loaders under several filenames.",
+        "source_link": "https://github.com/proot-me/PRoot"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3161,
+      "type": 0,
+      "name": "libproot.so",
+      "mode": "exact",
+      "priority": 3161,
+      "label": "PRoot",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libproot.so.json",
+      "examples": {
+        "positive": [
+          "libproot.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3162,
+      "type": 0,
+      "name": "libagora_proot.so",
+      "mode": "exact",
+      "priority": 3162,
+      "label": "PRoot",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_proot.so.json",
+      "examples": {
+        "positive": [
+          "libagora_proot.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3163,
+      "type": 0,
+      "name": "libproot_exec.so",
+      "mode": "exact",
+      "priority": 3163,
+      "label": "PRoot",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libproot_exec.so.json",
+      "examples": {
+        "positive": [
+          "libproot_exec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3164,
+      "type": 0,
+      "name": "libproot_loader.so",
+      "mode": "exact",
+      "priority": 3164,
+      "label": "PRoot",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libproot_loader.so.json",
+      "examples": {
+        "positive": [
+          "libproot_loader.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3165,
+      "type": 0,
+      "name": "libproot_loader32.so",
+      "mode": "exact",
+      "priority": 3165,
+      "label": "PRoot",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libproot_loader32.so.json",
+      "examples": {
+        "positive": [
+          "libproot_loader32.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3166,
+      "type": 0,
+      "name": "libproot-loader.so",
+      "mode": "exact",
+      "priority": 3166,
+      "label": "PRoot",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libproot-loader.so.json",
+      "examples": {
+        "positive": [
+          "libproot-loader.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3167,
+      "type": 0,
+      "name": "libproot-loader32.so",
+      "mode": "exact",
+      "priority": 3167,
+      "label": "PRoot",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libproot-loader32.so.json",
+      "examples": {
+        "positive": [
+          "libproot-loader32.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3168,
+      "type": 0,
+      "name": "libprootloader.so",
+      "mode": "exact",
+      "priority": 3168,
+      "label": "PRoot",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libprootloader.so.json",
+      "examples": {
+        "positive": [
+          "libprootloader.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3169,
+      "type": 0,
+      "name": "libprootloader32.so",
+      "mode": "exact",
+      "priority": 3169,
+      "label": "PRoot",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libprootloader32.so.json",
+      "examples": {
+        "positive": [
+          "libprootloader32.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

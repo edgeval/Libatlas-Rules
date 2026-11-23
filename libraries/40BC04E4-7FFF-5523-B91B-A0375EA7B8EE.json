@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "40BC04E4-7FFF-5523-B91B-A0375EA7B8EE",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "talloc",
+        "dev_team": "Samba Team",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "支持分层分配、引用计数和析构函数的 C 内存管理库，由 Samba 项目维护。",
+        "source_link": "https://github.com/samba-team/samba/tree/master/lib/talloc"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "talloc",
+        "dev_team": "Samba Team",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "A C memory management library maintained by Samba, with hierarchical allocation, reference counting, and destructors.",
+        "source_link": "https://github.com/samba-team/samba/tree/master/lib/talloc"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3175,
+      "type": 0,
+      "name": "libtalloc.so",
+      "mode": "exact",
+      "priority": 3175,
+      "label": "talloc",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtalloc.so.json",
+      "examples": {
+        "positive": [
+          "libtalloc.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

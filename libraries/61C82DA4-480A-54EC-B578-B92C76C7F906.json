@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 5,
+  "uuid": "61C82DA4-480A-54EC-B578-B92C76C7F906",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Forter Mobile SDK",
+        "dev_team": "Forter",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Forter 的 Android 移动端风险识别 SDK，为应用提供反欺诈集成。",
+        "source_link": "https://docs.forter.com/mobile-sdks/android-sdk-overview"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Forter Mobile SDK",
+        "dev_team": "Forter",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Forter Android SDK that integrates fraud detection into mobile applications.",
+        "source_link": "https://docs.forter.com/mobile-sdks/android-sdk-overview"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3232,
+      "type": 1,
+      "name": "com.forter.mobile.fortersdk.services.CaptchaTextToSpeechService",
+      "mode": "exact",
+      "priority": 3232,
+      "label": "Forter Mobile SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com.forter.mobile.fortersdk.services.CaptchaTextToSpeechService.json",
+      "examples": {
+        "positive": [
+          "com.forter.mobile.fortersdk.services.CaptchaTextToSpeechService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3233,
+      "type": 1,
+      "name": "com.forter.mobile.fortersdk.services.FTRAccountAuthenticatorService",
+      "mode": "exact",
+      "priority": 3233,
+      "label": "Forter Mobile SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com.forter.mobile.fortersdk.services.FTRAccountAuthenticatorService.json",
+      "examples": {
+        "positive": [
+          "com.forter.mobile.fortersdk.services.FTRAccountAuthenticatorService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3234,
+      "type": 3,
+      "name": "com.forter.mobile.fortersdk.integrationkit.InstallReferrerReceiver",
+      "mode": "exact",
+      "priority": 3234,
+      "label": "Forter Mobile SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com.forter.mobile.fortersdk.integrationkit.InstallReferrerReceiver.json",
+      "examples": {
+        "positive": [
+          "com.forter.mobile.fortersdk.integrationkit.InstallReferrerReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3235,
+      "type": 3,
+      "name": "com.forter.mobile.fortersdk.integrationkit.NetworkChangesListener",
+      "mode": "exact",
+      "priority": 3235,
+      "label": "Forter Mobile SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com.forter.mobile.fortersdk.integrationkit.NetworkChangesListener.json",
+      "examples": {
+        "positive": [
+          "com.forter.mobile.fortersdk.integrationkit.NetworkChangesListener"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3236,
+      "type": 3,
+      "name": "com.forter.mobile.fortersdk.utils.AlarmReceiver",
+      "mode": "exact",
+      "priority": 3236,
+      "label": "Forter Mobile SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com.forter.mobile.fortersdk.utils.AlarmReceiver.json",
+      "examples": {
+        "positive": [
+          "com.forter.mobile.fortersdk.utils.AlarmReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3237,
+      "type": 4,
+      "name": "com.forter.mobile.fortersdk.providers.AppStartContentProvider",
+      "mode": "exact",
+      "priority": 3237,
+      "label": "Forter Mobile SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com.forter.mobile.fortersdk.providers.AppStartContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.forter.mobile.fortersdk.providers.AppStartContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3238,
+      "type": 4,
+      "name": "com.forter.mobile.fortersdk.providers.DeviceAccountVisibilityProvider",
+      "mode": "exact",
+      "priority": 3238,
+      "label": "Forter Mobile SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com.forter.mobile.fortersdk.providers.DeviceAccountVisibilityProvider.json",
+      "examples": {
+        "positive": [
+          "com.forter.mobile.fortersdk.providers.DeviceAccountVisibilityProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3239,
+      "type": 4,
+      "name": "com.forter.mobile.fortersdk.providers.FTRHXContentProvider",
+      "mode": "exact",
+      "priority": 3239,
+      "label": "Forter Mobile SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com.forter.mobile.fortersdk.providers.FTRHXContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.forter.mobile.fortersdk.providers.FTRHXContentProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4856D5D3-9A2F-5709-974C-7D5D33903605",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Amazon Publisher Services",
+        "dev_team": "Amazon",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Amazon Publisher Services 的移动广告 SDK，支持应用内广告竞价。",
+        "source_link": "https://aps.amazon.com/aps/services/mobile-app-developers/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Amazon Publisher Services",
+        "dev_team": "Amazon",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Amazon Publisher Services mobile advertising SDK for in-app bidding.",
+        "source_link": "https://aps.amazon.com/aps/services/mobile-app-developers/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3188,
+      "type": 2,
+      "name": "com.amazon.aps.ads.activity.ApsInterstitialActivity",
+      "mode": "exact",
+      "priority": 3188,
+      "label": "Amazon Publisher Services",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.amazon.aps.ads.activity.ApsInterstitialActivity.json",
+      "examples": {
+        "positive": [
+          "com.amazon.aps.ads.activity.ApsInterstitialActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3189,
+      "type": 2,
+      "name": "com.amazon.device.ads.DTBAdActivity",
+      "mode": "exact",
+      "priority": 3189,
+      "label": "Amazon Publisher Services",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.amazon.device.ads.DTBAdActivity.json",
+      "examples": {
+        "positive": [
+          "com.amazon.device.ads.DTBAdActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3190,
+      "type": 2,
+      "name": "com.amazon.device.ads.DTBInterstitialActivity",
+      "mode": "exact",
+      "priority": 3190,
+      "label": "Amazon Publisher Services",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.amazon.device.ads.DTBInterstitialActivity.json",
+      "examples": {
+        "positive": [
+          "com.amazon.device.ads.DTBInterstitialActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

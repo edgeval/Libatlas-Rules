@@ -84,6 +84,24 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3200,
+      "type": 4,
+      "name": "com.bugsnag.android.internal.BugsnagContentProvider",
+      "mode": "exact",
+      "priority": 3200,
+      "label": "Bugsnag",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com.bugsnag.android.internal.BugsnagContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.bugsnag.android.internal.BugsnagContentProvider"
+        ],
+        "negative": []
+      }
     }
   ],
   "unreferencedDescriptions": []

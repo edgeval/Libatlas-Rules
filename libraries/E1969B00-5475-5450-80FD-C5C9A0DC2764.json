@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E1969B00-5475-5450-80FD-C5C9A0DC2764",
+  "iconId": "ic_lib_bytedance",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "SAEP",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "zerofancy"
+        ],
+        "description": "Android 应用可通过这项清单元数据引用打包的 SAEP 静态策略。规则只识别声明，设备是否执行该策略需另行确认。",
+        "source_link": "https://github.com/bytedance/SAEP-demo/blob/592493b7372f2499e9321e9a23a8ee461dd814d0/app/src/main/AndroidManifest.xml"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "SAEP",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "zerofancy"
+        ],
+        "description": "Android apps can use this manifest metadata to reference a packaged static SAEP policy. The match identifies the declaration only; policy enforcement depends on the device.",
+        "source_link": "https://github.com/bytedance/SAEP-demo/blob/592493b7372f2499e9321e9a23a8ee461dd814d0/app/src/main/AndroidManifest.xml"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3155,
+      "type": 8,
+      "name": "com.obric.agentrobots.POLICY_JSON",
+      "mode": "exact",
+      "priority": 3155,
+      "label": "SAEP",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "metadata-libs/com.obric.agentrobots.POLICY_JSON.json",
+      "examples": {
+        "positive": [
+          "com.obric.agentrobots.POLICY_JSON"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

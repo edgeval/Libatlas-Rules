@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "0834F480-6B8B-5628-A580-AA8A44D2E8A3",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "AppMetrica",
+        "dev_team": "Yandex",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "AppMetrica 的 Android 应用统计 SDK，提供使用数据、归因和崩溃报告功能。",
+        "source_link": "https://github.com/appmetrica/appmetrica-sdk-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "AppMetrica",
+        "dev_team": "Yandex",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "AppMetrica Android SDK for usage analytics, attribution, and crash reporting.",
+        "source_link": "https://github.com/appmetrica/appmetrica-sdk-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3191,
+      "type": 1,
+      "name": "io.appmetrica.analytics.internal.AppMetricaService",
+      "mode": "exact",
+      "priority": 3191,
+      "label": "AppMetrica",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/io.appmetrica.analytics.internal.AppMetricaService.json",
+      "examples": {
+        "positive": [
+          "io.appmetrica.analytics.internal.AppMetricaService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3192,
+      "type": 4,
+      "name": "io.appmetrica.analytics.internal.PreloadInfoContentProvider",
+      "mode": "exact",
+      "priority": 3192,
+      "label": "AppMetrica",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io.appmetrica.analytics.internal.PreloadInfoContentProvider.json",
+      "examples": {
+        "positive": [
+          "io.appmetrica.analytics.internal.PreloadInfoContentProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

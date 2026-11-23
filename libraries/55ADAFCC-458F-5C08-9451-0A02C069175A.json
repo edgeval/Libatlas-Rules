@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "55ADAFCC-458F-5C08-9451-0A02C069175A",
+  "iconId": "ic_lib_expo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Expo Sharing",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Expo 的分享模块，通过系统分享界面发送或接收内容。",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-sharing"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Expo Sharing",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Expo module for sending or receiving content through platform sharing interfaces.",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-sharing"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3207,
+      "type": 4,
+      "name": "expo.modules.sharing.SharingFileProvider",
+      "mode": "exact",
+      "priority": 3207,
+      "label": "Expo Sharing",
+      "iconId": "ic_lib_expo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/expo.modules.sharing.SharingFileProvider.json",
+      "examples": {
+        "positive": [
+          "expo.modules.sharing.SharingFileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

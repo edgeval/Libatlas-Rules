@@ -46,6 +46,60 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3261,
+      "type": 0,
+      "name": "libqiyune_audio.so",
+      "mode": "exact",
+      "priority": 3261,
+      "label": "七鱼 SDK",
+      "iconId": "ic_lib_netease",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libqiyune_audio.so.json",
+      "examples": {
+        "positive": [
+          "libqiyune_audio.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3262,
+      "type": 0,
+      "name": "libqiyuhigh_available_android.so",
+      "mode": "exact",
+      "priority": 3262,
+      "label": "七鱼 SDK",
+      "iconId": "ic_lib_netease",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libqiyuhigh_available_android.so.json",
+      "examples": {
+        "positive": [
+          "libqiyuhigh_available_android.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3263,
+      "type": 0,
+      "name": "libqiyutraceroute.so",
+      "mode": "exact",
+      "priority": 3263,
+      "label": "七鱼 SDK",
+      "iconId": "ic_lib_netease",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libqiyutraceroute.so.json",
+      "examples": {
+        "positive": [
+          "libqiyutraceroute.so"
+        ],
+        "negative": []
+      }
     }
   ],
   "unreferencedDescriptions": []

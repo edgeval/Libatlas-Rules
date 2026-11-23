@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "CA06DC93-1323-519F-B1B2-C401B3713C8B",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "InMobi",
+        "dev_team": "InMobi",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "InMobi 的 Android 移动广告 SDK，包含广告展示、浏览器和初始化组件。",
+        "source_link": "https://support.inmobi.com/monetize/android-guidelines/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "InMobi",
+        "dev_team": "InMobi",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "InMobi Android mobile advertising SDK, including ad display, browser, and initialization components.",
+        "source_link": "https://support.inmobi.com/monetize/android-guidelines/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3240,
+      "type": 2,
+      "name": "com.inmobi.ads.rendering.InMobiAdActivity",
+      "mode": "exact",
+      "priority": 3240,
+      "label": "InMobi",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.inmobi.ads.rendering.InMobiAdActivity.json",
+      "examples": {
+        "positive": [
+          "com.inmobi.ads.rendering.InMobiAdActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3241,
+      "type": 2,
+      "name": "com.inmobi.ads.rendering.InMobiInAppBrowserActivity",
+      "mode": "exact",
+      "priority": 3241,
+      "label": "InMobi",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.inmobi.ads.rendering.InMobiInAppBrowserActivity.json",
+      "examples": {
+        "positive": [
+          "com.inmobi.ads.rendering.InMobiInAppBrowserActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3242,
+      "type": 4,
+      "name": "com.inmobi.sdk.InMobiInitProvider",
+      "mode": "exact",
+      "priority": 3242,
+      "label": "InMobi",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com.inmobi.sdk.InMobiInitProvider.json",
+      "examples": {
+        "positive": [
+          "com.inmobi.sdk.InMobiInitProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

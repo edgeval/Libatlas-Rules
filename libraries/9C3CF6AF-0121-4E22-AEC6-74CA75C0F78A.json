@@ -519,6 +519,24 @@
           }
         }
       ]
+    },
+    {
+      "id": 3264,
+      "type": 0,
+      "name": "libnertd.so",
+      "mode": "exact",
+      "priority": 3264,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnertd.so.json",
+      "examples": {
+        "positive": [
+          "libnertd.so"
+        ],
+        "negative": []
+      }
     }
   ],
   "unreferencedDescriptions": []

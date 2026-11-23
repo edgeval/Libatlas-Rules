@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A00BC451-7787-5FDC-BF2C-3C03038383B4",
+  "iconId": "ic_lib_unity",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Unity Mobile Notifications",
+        "dev_team": "Unity Technologies",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Unity 的本地通知包，在 Android 上管理一次性和重复通知。",
+        "source_link": "https://github.com/Unity-Technologies/com.unity.mobile.notifications"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Unity Mobile Notifications",
+        "dev_team": "Unity Technologies",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Unity package for scheduling one-time and repeating local notifications on Android.",
+        "source_link": "https://github.com/Unity-Technologies/com.unity.mobile.notifications"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3223,
+      "type": 3,
+      "name": "com.unity.androidnotifications.UnityNotificationManager",
+      "mode": "exact",
+      "priority": 3223,
+      "label": "Unity Mobile Notifications",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com.unity.androidnotifications.UnityNotificationManager.json",
+      "examples": {
+        "positive": [
+          "com.unity.androidnotifications.UnityNotificationManager"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3224,
+      "type": 3,
+      "name": "com.unity.androidnotifications.UnityNotificationRestartReceiver",
+      "mode": "exact",
+      "priority": 3224,
+      "label": "Unity Mobile Notifications",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com.unity.androidnotifications.UnityNotificationRestartReceiver.json",
+      "examples": {
+        "positive": [
+          "com.unity.androidnotifications.UnityNotificationRestartReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3225,
+      "type": 3,
+      "name": "com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver",
+      "mode": "exact",
+      "priority": 3225,
+      "label": "Unity Mobile Notifications",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver.json",
+      "examples": {
+        "positive": [
+          "com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

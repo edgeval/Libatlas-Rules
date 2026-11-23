@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "BA4F1166-0338-5A3C-8860-5CACB6D1BDDF",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Andas",
+        "dev_team": "trueWangSyutung",
+        "rule_contributors": [
+          "trueWangSyutung"
+        ],
+        "description": "Android 数据分析库，通过 JNI 调用原生代码处理表格数据。",
+        "source_link": "https://github.com/trueWangSyutung/Andas"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Andas",
+        "dev_team": "trueWangSyutung",
+        "rule_contributors": [
+          "trueWangSyutung"
+        ],
+        "description": "Android data analysis library that processes tabular data through native code via JNI.",
+        "source_link": "https://github.com/trueWangSyutung/Andas"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3159,
+      "type": 0,
+      "name": "libandas_native.so",
+      "mode": "exact",
+      "priority": 3159,
+      "label": "Andas",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libandas_native.so.json",
+      "examples": {
+        "positive": [
+          "libandas_native.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

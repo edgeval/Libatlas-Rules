@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B4F5EBE7-F0C5-54F1-9C35-BA0F3C078DAF",
+  "iconId": "ic_lib_react",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "React Native Image Picker",
+        "dev_team": "React Native Image Picker contributors",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "React Native 媒体选择模块，调用 Android 系统界面或相机取得图片和视频。",
+        "source_link": "https://github.com/react-native-image-picker/react-native-image-picker"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "React Native Image Picker",
+        "dev_team": "React Native Image Picker contributors",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "React Native module for selecting images and video with the Android media picker or camera.",
+        "source_link": "https://github.com/react-native-image-picker/react-native-image-picker"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3197,
+      "type": 2,
+      "name": "com.imagepicker.CameraProxyActivity",
+      "mode": "exact",
+      "priority": 3197,
+      "label": "React Native Image Picker",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.imagepicker.CameraProxyActivity.json",
+      "examples": {
+        "positive": [
+          "com.imagepicker.CameraProxyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3198,
+      "type": 2,
+      "name": "com.imagepicker.ImagePickerProxyActivity",
+      "mode": "exact",
+      "priority": 3198,
+      "label": "React Native Image Picker",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.imagepicker.ImagePickerProxyActivity.json",
+      "examples": {
+        "positive": [
+          "com.imagepicker.ImagePickerProxyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3199,
+      "type": 4,
+      "name": "com.imagepicker.ImagePickerProvider",
+      "mode": "exact",
+      "priority": 3199,
+      "label": "React Native Image Picker",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com.imagepicker.ImagePickerProvider.json",
+      "examples": {
+        "positive": [
+          "com.imagepicker.ImagePickerProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

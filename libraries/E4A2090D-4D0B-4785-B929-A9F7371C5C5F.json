@@ -96,6 +96,42 @@
           }
         }
       ]
+    },
+    {
+      "id": 3211,
+      "type": 0,
+      "name": "libpng16.so",
+      "mode": "exact",
+      "priority": 3211,
+      "label": "libpng",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpng16.so.json",
+      "examples": {
+        "positive": [
+          "libpng16.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3212,
+      "type": 0,
+      "name": "libpngx.so",
+      "mode": "exact",
+      "priority": 3212,
+      "label": "libpng",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpngx.so.json",
+      "examples": {
+        "positive": [
+          "libpngx.so"
+        ],
+        "negative": []
+      }
     }
   ],
   "unreferencedDescriptions": []

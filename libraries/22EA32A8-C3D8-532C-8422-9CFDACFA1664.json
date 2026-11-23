@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 5,
+  "uuid": "22EA32A8-C3D8-532C-8422-9CFDACFA1664",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Didomi",
+        "dev_team": "Didomi",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Didomi 移动端同意管理 SDK。匹配项包括 Android 界面及 .NET Android 绑定产物。",
+        "source_link": "https://developers.didomi.io/cmp/mobile-sdk"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Didomi",
+        "dev_team": "Didomi",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Didomi mobile consent management SDK. Matches cover Android UI components and a .NET Android binding artifact.",
+        "source_link": "https://developers.didomi.io/cmp/mobile-sdk"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3214,
+      "type": 0,
+      "name": "libaot-DidomiBindingAndroid.dll.so",
+      "mode": "exact",
+      "priority": 3214,
+      "label": "Didomi",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libaot-DidomiBindingAndroid.dll.so.json",
+      "examples": {
+        "positive": [
+          "libaot-DidomiBindingAndroid.dll.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3215,
+      "type": 2,
+      "name": "io.didomi.sdk.notice.ctv.TVNoticeDialogActivity",
+      "mode": "exact",
+      "priority": 3215,
+      "label": "Didomi",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io.didomi.sdk.notice.ctv.TVNoticeDialogActivity.json",
+      "examples": {
+        "positive": [
+          "io.didomi.sdk.notice.ctv.TVNoticeDialogActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3216,
+      "type": 2,
+      "name": "io.didomi.sdk.preferences.ctv.TVPreferencesDialogActivity",
+      "mode": "exact",
+      "priority": 3216,
+      "label": "Didomi",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io.didomi.sdk.preferences.ctv.TVPreferencesDialogActivity.json",
+      "examples": {
+        "positive": [
+          "io.didomi.sdk.preferences.ctv.TVPreferencesDialogActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3217,
+      "type": 2,
+      "name": "io.didomi.sdk.ui.activity.JsonLayoutActivity",
+      "mode": "exact",
+      "priority": 3217,
+      "label": "Didomi",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io.didomi.sdk.ui.activity.JsonLayoutActivity.json",
+      "examples": {
+        "positive": [
+          "io.didomi.sdk.ui.activity.JsonLayoutActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

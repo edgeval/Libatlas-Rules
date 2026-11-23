@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DA818FCF-F3AB-5947-BF98-17D000279564",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Bugsnag Performance",
+        "dev_team": "SmartBear",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Bugsnag 的 Android 性能监控 SDK，可记录应用启动等操作的耗时。",
+        "source_link": "https://github.com/bugsnag/bugsnag-android-performance"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Bugsnag Performance",
+        "dev_team": "SmartBear",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Bugsnag Android performance monitoring SDK for measuring operations such as app startup.",
+        "source_link": "https://github.com/bugsnag/bugsnag-android-performance"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3201,
+      "type": 4,
+      "name": "com.bugsnag.android.performance.internal.startup.BugsnagPerformanceProvider",
+      "mode": "exact",
+      "priority": 3201,
+      "label": "Bugsnag Performance",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com.bugsnag.android.performance.internal.startup.BugsnagPerformanceProvider.json",
+      "examples": {
+        "positive": [
+          "com.bugsnag.android.performance.internal.startup.BugsnagPerformanceProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

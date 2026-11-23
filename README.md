@@ -29,6 +29,11 @@ This repository maintains the rules and metadata used by [LibChecker](https://gi
 
 If a library identification rule is missing or incorrect, open the [issue chooser](https://github.com/LibChecker/LibChecker-Rules/issues/new/choose) and select **Submit new rule** or **Bug report**. Follow the template and provide the filename, library name, development team, description, and a primary source. Include the app name and version when a sample is available for verification. Icons must use the SVG format.
 
+Private libraries can be included when an official document, public SDK package,
+or reproducible sample verifies the identifier's origin. Describe functions that
+have supporting evidence. For filenames shared by several builds, use a verified
+distinguishing identifier or label the common library family.
+
 ### Chart rules
 
 Chart rules have their own schema, tests, and release process. New rules normally start in the preview channel and move to the stable channel after verification. Read the complete contribution guide before submitting a rule:

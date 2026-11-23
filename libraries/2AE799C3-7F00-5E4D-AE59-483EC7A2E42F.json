@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2AE799C3-7F00-5E4D-AE59-483EC7A2E42F",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Chartboost",
+        "dev_team": "Chartboost / LoopMe",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Chartboost 的 Android 应用内广告 SDK，匹配项涵盖插屏、全屏展示和视频播放组件。",
+        "source_link": "https://github.com/ChartBoost/chartboost-mediation-android-sdk"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Chartboost",
+        "dev_team": "Chartboost / LoopMe",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Chartboost Android in-app advertising SDK. Matches include interstitial, fullscreen, and video playback components.",
+        "source_link": "https://github.com/ChartBoost/chartboost-mediation-android-sdk"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3257,
+      "type": 1,
+      "name": "com.chartboost.sdk.internal.video.repository.exoplayer.VideoRepositoryDownloadService",
+      "mode": "exact",
+      "priority": 3257,
+      "label": "Chartboost",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com.chartboost.sdk.internal.video.repository.exoplayer.VideoRepositoryDownloadService.json",
+      "examples": {
+        "positive": [
+          "com.chartboost.sdk.internal.video.repository.exoplayer.VideoRepositoryDownloadService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3258,
+      "type": 2,
+      "name": "com.chartboost.sdk.internal.clickthrough.EmbeddedBrowserActivity",
+      "mode": "exact",
+      "priority": 3258,
+      "label": "Chartboost",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.chartboost.sdk.internal.clickthrough.EmbeddedBrowserActivity.json",
+      "examples": {
+        "positive": [
+          "com.chartboost.sdk.internal.clickthrough.EmbeddedBrowserActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3259,
+      "type": 2,
+      "name": "com.chartboost.sdk.view.CBImpressionActivity",
+      "mode": "exact",
+      "priority": 3259,
+      "label": "Chartboost",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.chartboost.sdk.view.CBImpressionActivity.json",
+      "examples": {
+        "positive": [
+          "com.chartboost.sdk.view.CBImpressionActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3260,
+      "type": 2,
+      "name": "com.chartboost.sdk.view.FullscreenAdActivity",
+      "mode": "exact",
+      "priority": 3260,
+      "label": "Chartboost",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com.chartboost.sdk.view.FullscreenAdActivity.json",
+      "examples": {
+        "positive": [
+          "com.chartboost.sdk.view.FullscreenAdActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

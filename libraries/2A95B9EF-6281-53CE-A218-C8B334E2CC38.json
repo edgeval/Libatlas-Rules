@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2A95B9EF-6281-53CE-A218-C8B334E2CC38",
+  "iconId": "ic_lib_expo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Expo Clipboard",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Expo 的剪贴板模块，可以通过平台接口读取或设置剪贴板内容。",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-clipboard"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Expo Clipboard",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Expo module for reading and writing the system clipboard.",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-clipboard"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3205,
+      "type": 4,
+      "name": "expo.modules.clipboard.ClipboardFileProvider",
+      "mode": "exact",
+      "priority": 3205,
+      "label": "Expo Clipboard",
+      "iconId": "ic_lib_expo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/expo.modules.clipboard.ClipboardFileProvider.json",
+      "examples": {
+        "positive": [
+          "expo.modules.clipboard.ClipboardFileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}
