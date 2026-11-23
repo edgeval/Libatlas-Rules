@@ -316,6 +316,42 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3271,
+      "type": 0,
+      "name": "libyaqbasic.so",
+      "mode": "exact",
+      "priority": 3271,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libyaqbasic.so.json",
+      "examples": {
+        "positive": [
+          "libyaqbasic.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3272,
+      "type": 0,
+      "name": "libyaqpro.so",
+      "mode": "exact",
+      "priority": 3272,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libyaqpro.so.json",
+      "examples": {
+        "positive": [
+          "libyaqpro.so"
+        ],
+        "negative": []
+      }
     }
   ],
   "unreferencedDescriptions": []

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "862F1D49-5C15-5182-BA28-32A839083591",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "YukiHook",
+        "dev_team": "HighCapable",
+        "rule_contributors": [
+          "fankes"
+        ],
+        "description": "HighCapable 的 Kotlin 模块开发库，旧版名为 YukiHookAPI。",
+        "source_link": "https://github.com/HighCapable/YukiHook"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "YukiHook",
+        "dev_team": "HighCapable",
+        "rule_contributors": [
+          "fankes"
+        ],
+        "description": "Kotlin module development library from HighCapable, formerly named YukiHookAPI.",
+        "source_link": "https://github.com/HighCapable/YukiHook"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3279,
+      "type": 5,
+      "name": "com\\.highcapable\\.yukihookapi(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3279,
+      "label": "YukiHook",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.highcapable.yukihookapi",
+          "com.highcapable.yukihookapi.YukiHookAPI"
+        ],
+        "negative": [
+          "com.highcapable.yukihookapiextra"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

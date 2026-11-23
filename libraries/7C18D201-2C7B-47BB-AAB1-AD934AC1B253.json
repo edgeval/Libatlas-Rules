@@ -64,6 +64,27 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3287,
+      "type": 5,
+      "name": "androidx\\.tracing(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3287,
+      "label": "Jetpack Tracing",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.tracing",
+          "androidx.tracing.Trace"
+        ],
+        "negative": [
+          "androidx.tracingextra"
+        ]
+      }
     }
   ],
   "unreferencedDescriptions": []

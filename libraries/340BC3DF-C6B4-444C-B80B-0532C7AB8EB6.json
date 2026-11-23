@@ -66,6 +66,27 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3293,
+      "type": 5,
+      "name": "com\\.tencent\\.mmkv(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3293,
+      "label": "MMKV",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.tencent.mmkv",
+          "com.tencent.mmkv.MMKV"
+        ],
+        "negative": [
+          "com.tencent.mmkvextra"
+        ]
+      }
     }
   ],
   "unreferencedDescriptions": []

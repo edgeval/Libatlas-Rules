@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 5,
+  "uuid": "AC845149-4941-5C13-B63D-30E27C95683F",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Coil",
+        "dev_team": "Coil contributors",
+        "rule_contributors": [
+          "Goooler"
+        ],
+        "description": "Kotlin 协程驱动的图片加载库。兼容 Coil 2 与 Coil 3 的包名。",
+        "source_link": "https://coil-kt.github.io/coil/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Coil",
+        "dev_team": "Coil contributors",
+        "rule_contributors": [
+          "Goooler"
+        ],
+        "description": "Kotlin coroutine-based image loader. Recognizes namespaces used by Coil 2 and Coil 3.",
+        "source_link": "https://coil-kt.github.io/coil/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3277,
+      "type": 5,
+      "name": "coil(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3277,
+      "label": "Coil",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "coil",
+          "coil.ImageLoader"
+        ],
+        "negative": [
+          "coilextra"
+        ]
+      }
+    },
+    {
+      "id": 3278,
+      "type": 5,
+      "name": "coil3(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3278,
+      "label": "Coil",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "coil3",
+          "coil3.ImageLoader"
+        ],
+        "negative": [
+          "coil3extra"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

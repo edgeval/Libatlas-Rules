@@ -46,6 +46,27 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3281,
+      "type": 5,
+      "name": "androidx\\.datastore(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3281,
+      "label": "Jetpack DataStore",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.datastore",
+          "androidx.datastore.DataStore"
+        ],
+        "negative": [
+          "androidx.datastoreextra"
+        ]
+      }
     }
   ],
   "unreferencedDescriptions": []

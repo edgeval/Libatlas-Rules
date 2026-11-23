@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 5,
+  "uuid": "0B701CC7-BFC2-5496-882C-FF5DE2E0010A",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "SQLDelight",
+        "dev_team": "Cash App",
+        "rule_contributors": [
+          "Goooler"
+        ],
+        "description": "从 SQL 生成类型安全的 Kotlin 接口，并在编译期间检查语句、数据库结构和迁移。",
+        "source_link": "https://github.com/cashapp/sqldelight"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "SQLDelight",
+        "dev_team": "Cash App",
+        "rule_contributors": [
+          "Goooler"
+        ],
+        "description": "Generates type-safe Kotlin APIs from SQL and checks statements, schema and migrations at compile time.",
+        "source_link": "https://github.com/cashapp/sqldelight"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3275,
+      "type": 5,
+      "name": "app\\.cash\\.sqldelight(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3275,
+      "label": "SQLDelight",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "app.cash.sqldelight",
+          "app.cash.sqldelight.Query"
+        ],
+        "negative": [
+          "app.cash.sqldelightextra"
+        ]
+      }
+    },
+    {
+      "id": 3276,
+      "type": 5,
+      "name": "com\\.squareup\\.sqldelight(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3276,
+      "label": "SQLDelight",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.squareup.sqldelight",
+          "com.squareup.sqldelight.Query"
+        ],
+        "negative": [
+          "com.squareup.sqldelightextra"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

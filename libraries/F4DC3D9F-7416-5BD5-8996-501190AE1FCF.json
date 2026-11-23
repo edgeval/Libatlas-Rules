@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F4DC3D9F-7416-5BD5-8996-501190AE1FCF",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "微信支付",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Jian66666"
+        ],
+        "description": "微信支付的 Android 回调入口。官方要求商户应用在自身包名下声明 wxapi.WXPayEntryActivity。",
+        "source_link": "https://pay.wechatpay.cn/doc/v3/partner/4054257714"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "WeChat Pay",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Jian66666"
+        ],
+        "description": "Android payment callback entry point. The official guide requires wxapi.WXPayEntryActivity within the merchant app namespace.",
+        "source_link": "https://pay.wechatpay.cn/doc/v3/partner/4054257714"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3300,
+      "type": 2,
+      "name": "(?:[A-Za-z_][A-Za-z0-9_]*\\.){2,}wxapi\\.WXPayEntryActivity",
+      "mode": "regex",
+      "priority": 3300,
+      "label": "微信支付",
+      "iconId": "ic_lib_tencent",
+      "regexName": "wechat_pay_entry_activity",
+      "hasDetail": true,
+      "legacyPath": "activities-libs/regex/wechat_pay_entry_activity.json",
+      "examples": {
+        "positive": [
+          "com.example.merchant.wxapi.WXPayEntryActivity"
+        ],
+        "negative": [
+          "com.example.merchant.wxapi.WXEntryActivity",
+          "com.example.merchant.auth_pay.wxpay.WXPayActivity"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

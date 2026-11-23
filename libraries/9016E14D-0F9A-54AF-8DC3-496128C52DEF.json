@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9016E14D-0F9A-54AF-8DC3-496128C52DEF",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Tencent Kona SM Suite",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "腾讯的 Java 国密密码算法实现。该规则识别已发布 Kona Crypto 的包路径。",
+        "source_link": "https://github.com/Tencent/TencentKonaSMSuite"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tencent Kona SM Suite",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "Tencent implementation of Chinese commercial cryptographic algorithms for Java. The rule detects the published Kona Crypto namespace.",
+        "source_link": "https://github.com/Tencent/TencentKonaSMSuite"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3294,
+      "type": 5,
+      "name": "com\\.tencent\\.kona(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3294,
+      "label": "Tencent Kona SM Suite",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.tencent.kona",
+          "com.tencent.kona.crypto.KonaCryptoProvider"
+        ],
+        "negative": [
+          "com.tencent.konaextra"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

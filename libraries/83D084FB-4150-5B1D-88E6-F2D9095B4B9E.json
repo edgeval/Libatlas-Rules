@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "83D084FB-4150-5B1D-88E6-F2D9095B4B9E",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Timber",
+        "dev_team": "Jake Wharton",
+        "rule_contributors": [
+          "Goooler"
+        ],
+        "description": "面向 Android 的可扩展日志库。",
+        "source_link": "https://github.com/JakeWharton/timber"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Timber",
+        "dev_team": "Jake Wharton",
+        "rule_contributors": [
+          "Goooler"
+        ],
+        "description": "Extensible logging library for Android.",
+        "source_link": "https://github.com/JakeWharton/timber"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3274,
+      "type": 5,
+      "name": "timber\\.log(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3274,
+      "label": "Timber",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "timber.log",
+          "timber.log.Timber"
+        ],
+        "negative": [
+          "timber.logextra"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

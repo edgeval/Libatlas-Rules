@@ -66,6 +66,27 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3285,
+      "type": 5,
+      "name": "androidx\\.graphics(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3285,
+      "label": "Jetpack Graphics",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.graphics",
+          "androidx.graphics.path.PathIterator"
+        ],
+        "negative": [
+          "androidx.graphicsextra"
+        ]
+      }
     }
   ],
   "unreferencedDescriptions": []

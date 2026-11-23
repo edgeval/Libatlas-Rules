@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F92CBFD6-E8A3-5330-8046-CD56520D23EB",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "极密 GeeMee SDK",
+        "dev_team": "北京微通新成网络科技有限公司",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "极密 Android SDK。匹配官方集成资料列出的核心库及通讯加密组件。",
+        "source_link": "https://netmarket.oss.aliyuncs.com/b944556e-6de4-4b31-b7be-e1c483b89573.pdf"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "GeeMee SDK",
+        "dev_team": "北京微通新成网络科技有限公司",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "GeeMee Android SDK. Matches the core and communication-encryption libraries listed in the official integration guide.",
+        "source_link": "https://netmarket.oss.aliyuncs.com/b944556e-6de4-4b31-b7be-e1c483b89573.pdf"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3268,
+      "type": 0,
+      "name": "libGeeMeeSDKBase.so",
+      "mode": "exact",
+      "priority": 3268,
+      "label": "极密 GeeMee SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libGeeMeeSDKBase.so.json",
+      "examples": {
+        "positive": [
+          "libGeeMeeSDKBase.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3269,
+      "type": 0,
+      "name": "libMdSecurity.so",
+      "mode": "exact",
+      "priority": 3269,
+      "label": "极密 GeeMee SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMdSecurity.so.json",
+      "examples": {
+        "positive": [
+          "libMdSecurity.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

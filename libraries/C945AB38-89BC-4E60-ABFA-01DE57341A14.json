@@ -43,7 +43,7 @@
       "name": "libUE4.so",
       "mode": "exact",
       "priority": 148,
-      "label": "Unreal Engine",
+      "label": "Unreal Engine 4",
       "iconId": "ic_lib_unreal_engine",
       "regexName": null,
       "hasDetail": true,
@@ -53,7 +53,33 @@
           "libUE4.so"
         ],
         "negative": []
-      }
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Unreal Engine 4",
+            "dev_team": "Epic Games",
+            "rule_contributors": [
+              "chy2240"
+            ],
+            "description": "Epic Games 的虚幻引擎 4。规则匹配 UE4 的 Android 原生文件名。",
+            "source_link": "https://dev.epicgames.com/documentation/unreal-engine/unreal-engine-4-27-documentation"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Unreal Engine 4",
+            "dev_team": "Epic Games",
+            "rule_contributors": [
+              "chy2240"
+            ],
+            "description": "Unreal Engine 4 from Epic Games. Matches an Android native filename used by UE4.",
+            "source_link": "https://dev.epicgames.com/documentation/unreal-engine/unreal-engine-4-27-documentation"
+          }
+        }
+      ]
     },
     {
       "id": 1817,
@@ -61,7 +87,7 @@
       "name": "libUE4Bundle-Splittables.so",
       "mode": "exact",
       "priority": 1817,
-      "label": "Unreal Engine",
+      "label": "Unreal Engine 4",
       "iconId": "ic_lib_unreal_engine",
       "regexName": null,
       "hasDetail": true,
@@ -71,7 +97,33 @@
           "libUE4Bundle-Splittables.so"
         ],
         "negative": []
-      }
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Unreal Engine 4",
+            "dev_team": "Epic Games",
+            "rule_contributors": [
+              "chy2240"
+            ],
+            "description": "Epic Games 的虚幻引擎 4。规则匹配 UE4 的 Android 原生文件名。",
+            "source_link": "https://dev.epicgames.com/documentation/unreal-engine/unreal-engine-4-27-documentation"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Unreal Engine 4",
+            "dev_team": "Epic Games",
+            "rule_contributors": [
+              "chy2240"
+            ],
+            "description": "Unreal Engine 4 from Epic Games. Matches an Android native filename used by UE4.",
+            "source_link": "https://dev.epicgames.com/documentation/unreal-engine/unreal-engine-4-27-documentation"
+          }
+        }
+      ]
     },
     {
       "id": 2676,
@@ -89,7 +141,33 @@
           "libunreal.so"
         ],
         "negative": []
-      }
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Unreal Engine",
+            "dev_team": "Epic Games",
+            "rule_contributors": [
+              "chy2240"
+            ],
+            "description": "Epic Games 的虚幻引擎运行库。虚幻引擎 5 的 Android 构建使用过这一名称，确切的大版本需要进一步证据。",
+            "source_link": "https://dev.epicgames.com/documentation/unreal-engine/"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Unreal Engine",
+            "dev_team": "Epic Games",
+            "rule_contributors": [
+              "chy2240"
+            ],
+            "description": "Unreal Engine runtime from Epic Games. Android builds of Unreal Engine 5 use this filename; establishing the exact major version requires further evidence.",
+            "source_link": "https://dev.epicgames.com/documentation/unreal-engine/"
+          }
+        }
+      ]
     },
     {
       "id": 2917,
@@ -107,7 +185,33 @@
           "libUnreal.so"
         ],
         "negative": []
-      }
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Unreal Engine",
+            "dev_team": "Epic Games",
+            "rule_contributors": [
+              "chy2240"
+            ],
+            "description": "Epic Games 的虚幻引擎运行库。虚幻引擎 5 的 Android 构建使用过这一名称，确切的大版本需要进一步证据。",
+            "source_link": "https://dev.epicgames.com/documentation/unreal-engine/"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Unreal Engine",
+            "dev_team": "Epic Games",
+            "rule_contributors": [
+              "chy2240"
+            ],
+            "description": "Unreal Engine runtime from Epic Games. Android builds of Unreal Engine 5 use this filename; establishing the exact major version requires further evidence.",
+            "source_link": "https://dev.epicgames.com/documentation/unreal-engine/"
+          }
+        }
+      ]
     }
   ],
   "unreferencedDescriptions": []

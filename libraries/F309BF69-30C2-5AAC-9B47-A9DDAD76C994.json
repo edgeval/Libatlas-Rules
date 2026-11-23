@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F309BF69-30C2-5AAC-9B47-A9DDAD76C994",
+  "iconId": "ic_lib_tencent_tds",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "KuiklyUI",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "腾讯开源的跨平台 UI 框架。规则识别 Android 构建中的 Kuikly 包路径。",
+        "source_link": "https://github.com/Tencent-TDS/KuiklyUI"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "KuiklyUI",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "Tencent open-source cross-platform UI framework. The rule identifies the Android Kuikly namespace.",
+        "source_link": "https://github.com/Tencent-TDS/KuiklyUI"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3296,
+      "type": 5,
+      "name": "com\\.tencent\\.kuikly(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3296,
+      "label": "KuiklyUI",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.tencent.kuikly",
+          "com.tencent.kuikly.core.annotations.Page"
+        ],
+        "negative": [
+          "com.tencent.kuiklyextra"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

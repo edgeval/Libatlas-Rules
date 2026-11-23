@@ -6,25 +6,27 @@
     {
       "locale": "zh-Hans",
       "data": {
-        "label": "腾讯云短视频 SDK",
-        "dev_team": "Tencent",
+        "label": "腾讯云 LiteAV SDK",
+        "dev_team": "Tencent Cloud",
         "rule_contributors": [
-          "Absinthe"
+          "Absinthe",
+          "yfdyh000"
         ],
-        "description": "腾讯云点播推出了短视频一站式解决方案，覆盖了视频生成、上传、处理、分发和播放在内的各个环节，帮助用户以最快速度实现短视频应用的上线。",
-        "source_link": "https://cloud.tencent.com/document/product/584/9453"
+        "description": "腾讯云 LiteAV 的音视频播放和处理组件，可由短视频、直播和实时音视频等产品集成。共同组件的文件名无法确定接入的产品版本。",
+        "source_link": "https://cloud.tencent.com/document/product/584/126784"
       }
     },
     {
       "locale": "en",
       "data": {
-        "label": "Tencent Cloud Short Video SDK",
-        "dev_team": "Tencent",
+        "label": "Tencent Cloud LiteAV SDK",
+        "dev_team": "Tencent Cloud",
         "rule_contributors": [
-          "Absinthe"
+          "Absinthe",
+          "yfdyh000"
         ],
-        "description": "Tencent Cloud VOD has launched a one-stop solution for short videos, covering all aspects of video generation, upload, processing, distribution, and playback, helping users to launch short video applications as quickly as possible.",
-        "source_link": "https://cloud.tencent.com/document/product/584/9453"
+        "description": "Audio and video components from Tencent Cloud LiteAV, used in products such as short video, live streaming, and real-time audio and video. A shared library name does not identify the product edition.",
+        "source_link": "https://cloud.tencent.com/document/product/584/126784"
       }
     }
   ],
@@ -35,7 +37,7 @@
       "name": "libtxplayer.so",
       "mode": "exact",
       "priority": 26,
-      "label": "腾讯云短视频 SDK",
+      "label": "腾讯云 LiteAV SDK",
       "iconId": "ic_lib_tencent_cloud",
       "regexName": null,
       "hasDetail": true,
@@ -53,7 +55,7 @@
       "name": "libtxsdl.so",
       "mode": "exact",
       "priority": 39,
-      "label": "腾讯云短视频 SDK",
+      "label": "腾讯云 LiteAV SDK",
       "iconId": "ic_lib_tencent_cloud",
       "regexName": null,
       "hasDetail": true,
@@ -71,7 +73,7 @@
       "name": "libliteavsdk.so",
       "mode": "exact",
       "priority": 96,
-      "label": "腾讯云短视频 SDK",
+      "label": "腾讯云 LiteAV SDK",
       "iconId": "ic_lib_tencent_cloud",
       "regexName": null,
       "hasDetail": true,
@@ -89,7 +91,7 @@
       "name": "libtxffmpeg.so",
       "mode": "exact",
       "priority": 117,
-      "label": "腾讯云短视频 SDK",
+      "label": "腾讯云 LiteAV SDK",
       "iconId": "ic_lib_tencent_cloud",
       "regexName": null,
       "hasDetail": true,

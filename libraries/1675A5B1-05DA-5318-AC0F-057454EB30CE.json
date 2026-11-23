@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1675A5B1-05DA-5318-AC0F-057454EB30CE",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack Leanback",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "用于 Android TV 界面的组件。",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/leanback"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack Leanback",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "UI components for Android TV.",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/leanback"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3289,
+      "type": 5,
+      "name": "androidx\\.leanback(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3289,
+      "label": "Jetpack Leanback",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.leanback",
+          "androidx.leanback.widget.Presenter"
+        ],
+        "negative": [
+          "androidx.leanbackextra"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

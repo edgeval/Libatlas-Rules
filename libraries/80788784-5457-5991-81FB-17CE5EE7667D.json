@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "80788784-5457-5991-81FB-17CE5EE7667D",
+  "iconId": "ic_lib_rust",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Winio",
+        "dev_team": "compio-rs",
+        "rule_contributors": [
+          "mokurin000"
+        ],
+        "description": "跨平台异步 GUI 运行时，Android 后端提供原生界面绑定。",
+        "source_link": "https://github.com/compio-rs/winio"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Winio",
+        "dev_team": "compio-rs",
+        "rule_contributors": [
+          "mokurin000"
+        ],
+        "description": "Asynchronous cross-platform GUI runtime with native Android UI bindings.",
+        "source_link": "https://github.com/compio-rs/winio"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3299,
+      "type": 5,
+      "name": "rs\\.compio\\.winio(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3299,
+      "label": "Winio",
+      "iconId": "ic_lib_rust",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "rs.compio.winio",
+          "rs.compio.winio.Activity"
+        ],
+        "negative": [
+          "rs.compio.winioextra"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -6,26 +6,28 @@
     {
       "locale": "zh-Hans",
       "data": {
-        "label": "360 加固",
+        "label": "360 加固 · 三六零天御",
         "dev_team": "360",
         "rule_contributors": [
+          "qhy040404",
           "Absinthe",
-          "qhy040404"
+          "ArcticFoxPro"
         ],
-        "description": "360 加固保是基于 360 核心加密技术，给安卓应用进行深度加密、加壳保护的安全技术产品，可保护应用远离恶意破解、反编译、二次打包，内存抓取等威胁。",
+        "description": "三六零天御提供的 Android 应用加固组件。规则匹配已知原生文件和天御运行时包名。",
         "source_link": "https://jiagu.360.cn/"
       }
     },
     {
       "locale": "en",
       "data": {
-        "label": "360 Reinforcement",
+        "label": "360 Jiagu (Tianyu)",
         "dev_team": "360",
         "rule_contributors": [
+          "qhy040404",
           "Absinthe",
-          "qhy040404"
+          "ArcticFoxPro"
         ],
-        "description": "360 Reinforcement is a security technology product based on 360 core encryption technology, providing deep encryption and shell protection for Android applications, protecting applications from malicious cracking, decompilation, repackaging, memory capture, and other threats.",
+        "description": "Android app protection components from 360 Tianyu. Rules match known native files and the Tianyu runtime namespace.",
         "source_link": "https://jiagu.360.cn/"
       }
     }
@@ -37,7 +39,7 @@
       "name": "libjiagu.so",
       "mode": "exact",
       "priority": 116,
-      "label": "360 加固",
+      "label": "360 加固 · 三六零天御",
       "iconId": "ic_lib_360",
       "regexName": null,
       "hasDetail": true,
@@ -55,7 +57,7 @@
       "name": "libjiagu_a64.so",
       "mode": "exact",
       "priority": 720,
-      "label": "360 加固",
+      "label": "360 加固 · 三六零天御",
       "iconId": "ic_lib_360",
       "regexName": null,
       "hasDetail": true,
@@ -73,7 +75,7 @@
       "name": "libjiagu_x64.so",
       "mode": "exact",
       "priority": 721,
-      "label": "360 加固",
+      "label": "360 加固 · 三六零天御",
       "iconId": "ic_lib_360",
       "regexName": null,
       "hasDetail": true,
@@ -91,7 +93,7 @@
       "name": "libjiagu_x86.so",
       "mode": "exact",
       "priority": 722,
-      "label": "360 加固",
+      "label": "360 加固 · 三六零天御",
       "iconId": "ic_lib_360",
       "regexName": null,
       "hasDetail": true,
@@ -109,7 +111,7 @@
       "name": "libX86Bridge.so",
       "mode": "exact",
       "priority": 882,
-      "label": "360 加固",
+      "label": "360 加固 · 三六零天御",
       "iconId": "ic_lib_360",
       "regexName": null,
       "hasDetail": true,
@@ -127,7 +129,7 @@
       "name": "libjiagu_vip.so",
       "mode": "exact",
       "priority": 1467,
-      "label": "360 加固",
+      "label": "360 加固 · 三六零天御",
       "iconId": "ic_lib_360",
       "regexName": null,
       "hasDetail": true,
@@ -145,7 +147,7 @@
       "name": "libjiagu_vip_x64.so",
       "mode": "exact",
       "priority": 1468,
-      "label": "360 加固",
+      "label": "360 加固 · 三六零天御",
       "iconId": "ic_lib_360",
       "regexName": null,
       "hasDetail": true,
@@ -155,6 +157,26 @@
           "libjiagu_vip_x64.so"
         ],
         "negative": []
+      }
+    },
+    {
+      "id": 3292,
+      "type": 5,
+      "name": "com\\.tianyu\\.util(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3292,
+      "label": "360 加固 · 三六零天御",
+      "iconId": "ic_lib_360",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.tianyu.util"
+        ],
+        "negative": [
+          "com.tianyu.utilextra"
+        ]
       }
     }
   ],

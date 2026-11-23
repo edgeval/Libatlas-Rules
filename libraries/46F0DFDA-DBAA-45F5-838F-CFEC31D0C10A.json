@@ -46,6 +46,24 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3270,
+      "type": 0,
+      "name": "libqcOpenSSL.so",
+      "mode": "exact",
+      "priority": 3270,
+      "label": "PLDroidPlayer",
+      "iconId": "ic_lib_qiniu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libqcOpenSSL.so.json",
+      "examples": {
+        "positive": [
+          "libqcOpenSSL.so"
+        ],
+        "negative": []
+      }
     }
   ],
   "unreferencedDescriptions": []

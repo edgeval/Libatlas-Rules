@@ -86,6 +86,27 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3297,
+      "type": 5,
+      "name": "com\\.tencent\\.wcdb(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3297,
+      "label": "WCDB",
+      "iconId": "ic_lib_tds_wcdb",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.tencent.wcdb",
+          "com.tencent.wcdb.core"
+        ],
+        "negative": [
+          "com.tencent.wcdbextra"
+        ]
+      }
     }
   ],
   "unreferencedDescriptions": []

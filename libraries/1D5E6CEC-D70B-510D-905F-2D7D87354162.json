@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1D5E6CEC-D70B-510D-905F-2D7D87354162",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack Navigation",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "管理应用页面之间的导航。",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/navigation"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack Navigation",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "Manages navigation between app destinations.",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/navigation"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3288,
+      "type": 5,
+      "name": "androidx\\.navigation(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3288,
+      "label": "Jetpack Navigation",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.navigation",
+          "androidx.navigation.NavController"
+        ],
+        "negative": [
+          "androidx.navigationextra"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

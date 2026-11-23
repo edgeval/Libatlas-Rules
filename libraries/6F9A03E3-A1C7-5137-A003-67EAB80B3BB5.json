@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6F9A03E3-A1C7-5137-A003-67EAB80B3BB5",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "MagiskBoot",
+        "dev_team": "topjohnwu",
+        "rule_contributors": [
+          "hfhhfhzx"
+        ],
+        "description": "Magisk 所带的 Android 启动镜像处理工具。",
+        "source_link": "https://topjohnwu.github.io/Magisk/tools.html#magiskboot"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "MagiskBoot",
+        "dev_team": "topjohnwu",
+        "rule_contributors": [
+          "hfhhfhzx"
+        ],
+        "description": "Android boot image utility packaged by Magisk.",
+        "source_link": "https://topjohnwu.github.io/Magisk/tools.html#magiskboot"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3298,
+      "type": 0,
+      "name": "libmagiskboot.so",
+      "mode": "exact",
+      "priority": 3298,
+      "label": "MagiskBoot",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmagiskboot.so.json",
+      "examples": {
+        "positive": [
+          "libmagiskboot.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

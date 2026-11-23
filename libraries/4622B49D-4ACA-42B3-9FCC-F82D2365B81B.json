@@ -192,6 +192,27 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3291,
+      "type": 5,
+      "name": "com\\.unity3d\\.player(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3291,
+      "label": "Unity",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.unity3d.player",
+          "com.unity3d.player.UnityPlayerActivity"
+        ],
+        "negative": [
+          "com.unity3d.playerextra"
+        ]
+      }
     }
   ],
   "unreferencedDescriptions": []

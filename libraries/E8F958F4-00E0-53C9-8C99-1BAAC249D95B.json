@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E8F958F4-00E0-53C9-8C99-1BAAC249D95B",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack Emoji2",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "为 Android 提供表情兼容支持。",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/emoji2"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack Emoji2",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "Provides emoji compatibility on Android.",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/emoji2"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3284,
+      "type": 5,
+      "name": "androidx\\.emoji2(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3284,
+      "label": "Jetpack Emoji2",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.emoji2",
+          "androidx.emoji2.text.EmojiCompat"
+        ],
+        "negative": [
+          "androidx.emoji2extra"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

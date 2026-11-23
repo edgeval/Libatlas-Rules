@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "402AC36B-95F0-5503-BFF4-85DBF8F3650D",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "jsoup",
+        "dev_team": "jsoup contributors",
+        "rule_contributors": [
+          "ag2s20150909"
+        ],
+        "description": "用于解析、查找和清洗 HTML 的 Java 库。",
+        "source_link": "https://jsoup.org/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "jsoup",
+        "dev_team": "jsoup contributors",
+        "rule_contributors": [
+          "ag2s20150909"
+        ],
+        "description": "Java library for parsing, querying, and cleaning HTML.",
+        "source_link": "https://jsoup.org/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3265,
+      "type": 5,
+      "name": "org\\.jsoup(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3265,
+      "label": "jsoup",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "org.jsoup",
+          "org.jsoup.Jsoup"
+        ],
+        "negative": [
+          "org.jsoupextra"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

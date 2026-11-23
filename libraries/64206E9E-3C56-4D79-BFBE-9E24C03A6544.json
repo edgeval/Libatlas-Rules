@@ -46,6 +46,27 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3283,
+      "type": 5,
+      "name": "androidx\\.startup(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3283,
+      "label": "Jetpack App Startup",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.startup",
+          "androidx.startup.AppInitializer"
+        ],
+        "negative": [
+          "androidx.startupextra"
+        ]
+      }
     }
   ],
   "unreferencedDescriptions": []

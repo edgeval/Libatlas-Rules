@@ -86,6 +86,27 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3295,
+      "type": 5,
+      "name": "com\\.tencent\\.mtt\\.hippy(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3295,
+      "label": "Hippy",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.tencent.mtt.hippy",
+          "com.tencent.mtt.hippy.HippyEngine"
+        ],
+        "negative": [
+          "com.tencent.mtt.hippyextra"
+        ]
+      }
     }
   ],
   "unreferencedDescriptions": []

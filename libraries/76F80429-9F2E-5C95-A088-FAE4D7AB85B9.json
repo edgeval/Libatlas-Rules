@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "76F80429-9F2E-5C95-A088-FAE4D7AB85B9",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Android Game Development Kit",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "Android 游戏开发与优化工具和组件。该规则识别 AGDK 的 Android GameActivity 等包路径。",
+        "source_link": "https://developer.android.com/games/agdk/game-activity/get-started"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Android Game Development Kit",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "Android game development tools and components. This rule detects AGDK package paths such as GameActivity.",
+        "source_link": "https://developer.android.com/games/agdk/game-activity/get-started"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3290,
+      "type": 5,
+      "name": "com\\.google\\.androidgamesdk(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3290,
+      "label": "Android Game Development Kit",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.google.androidgamesdk",
+          "com.google.androidgamesdk.GameActivity"
+        ],
+        "negative": [
+          "com.google.androidgamesdkextra"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

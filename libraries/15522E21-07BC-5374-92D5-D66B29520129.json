@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "15522E21-07BC-5374-92D5-D66B29520129",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack View Binding",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "为布局生成类型安全的视图绑定。",
+        "source_link": "https://developer.android.com/topic/libraries/view-binding"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack View Binding",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "Generates type-safe views from Android layouts.",
+        "source_link": "https://developer.android.com/topic/libraries/view-binding"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3286,
+      "type": 5,
+      "name": "androidx\\.viewbinding(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3286,
+      "label": "Jetpack View Binding",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.viewbinding",
+          "androidx.viewbinding.ViewBinding"
+        ],
+        "negative": [
+          "androidx.viewbindingextra"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

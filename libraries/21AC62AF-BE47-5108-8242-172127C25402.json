@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "21AC62AF-BE47-5108-8242-172127C25402",
+  "iconId": "ic_lib_meta",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Litho",
+        "dev_team": "Meta",
+        "rule_contributors": [
+          "False-Mask"
+        ],
+        "description": "Android 声明式界面框架。",
+        "source_link": "https://github.com/facebook/litho"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Litho",
+        "dev_team": "Meta",
+        "rule_contributors": [
+          "False-Mask"
+        ],
+        "description": "Declarative UI framework for Android.",
+        "source_link": "https://github.com/facebook/litho"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3280,
+      "type": 5,
+      "name": "com\\.facebook\\.litho(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3280,
+      "label": "Litho",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.facebook.litho",
+          "com.facebook.litho.Component"
+        ],
+        "negative": [
+          "com.facebook.lithoextra"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

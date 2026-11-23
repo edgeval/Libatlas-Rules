@@ -118,6 +118,27 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3282,
+      "type": 5,
+      "name": "androidx\\.profileinstaller(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3282,
+      "label": "Jetpack ProfileInstaller",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.profileinstaller",
+          "androidx.profileinstaller.ProfileInstaller"
+        ],
+        "negative": [
+          "androidx.profileinstallerextra"
+        ]
+      }
     }
   ],
   "unreferencedDescriptions": []

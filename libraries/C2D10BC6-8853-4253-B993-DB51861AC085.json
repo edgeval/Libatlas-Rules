@@ -64,6 +64,27 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3267,
+      "type": 5,
+      "name": "com\\.aliyun\\.svideosdk(?:\\..+)?",
+      "mode": "regex",
+      "priority": 3267,
+      "label": "阿里云短视频 SDK",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.aliyun.svideosdk",
+          "com.aliyun.svideosdk.common"
+        ],
+        "negative": [
+          "com.aliyun.svideosdkextra"
+        ]
+      }
     }
   ],
   "unreferencedDescriptions": []
