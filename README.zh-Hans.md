@@ -1,69 +1,39 @@
-# LibChecker-Rules
+# 库谱规则库 · LibAtlas Rules
 
-[![Rules version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.rulesVersion&label=Rules&color=6f42c1&style=flat&cacheSeconds=3600)](cloud/md5/v4)
-[![Native libraries](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.nativeLibraries&label=Native%20libraries&color=0969da&style=flat&cacheSeconds=3600)](native-libs/)
-[![Activities](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.activities&label=Activities&color=1a7f37&style=flat&cacheSeconds=3600)](activities-libs/)
-[![Services](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.services&label=Services&color=bf8700&style=flat&cacheSeconds=3600)](services-libs/)
-[![Receivers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.receivers&label=Receivers&color=cf222e&style=flat&cacheSeconds=3600)](receivers-libs/)
-[![Providers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.providers&label=Providers&color=8250df&style=flat&cacheSeconds=3600)](providers-libs/)
-[![Intent actions](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.intentActions&label=Intent%20actions&color=1b7c83&style=flat&cacheSeconds=3600)](actions-libs/)
-[![Static libraries](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.staticLibraries&label=Static%20libraries&color=57606a&style=flat&cacheSeconds=3600)](static-libs/)
-[![Chart rules](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.chartRules&label=Chart%20rules&color=bf3989&style=flat&cacheSeconds=3600)](chart/rules/)
+[English](README.md) · 简体中文
 
-[English](README.md) | 简体中文
+本仓库维护库谱（LibAtlas）用于识别 Android 原生库、SDK、应用组件和 Intent Action 的规则，也提供在线库说明、SDK 版本数据和图表规则。[库谱应用](https://github.com/edgeval/Libatlas)
 
-本仓库维护 [LibChecker](https://github.com/LibChecker/LibChecker) 使用的规则与元数据，包括 Android 组件和原生库识别规则、Flutter 引擎版本映射，以及图表页面使用的声明式统计规则。
+## 获取规则
 
-## 仓库内容
+在库谱中打开 **设置 → 规则与网络 → 云端规则**，即可检查规则更新。
 
-| 路径 | 内容 |
+规则版本 **0.5.2** 对应数据编号 `52`，包含 **3,199** 条识别规则。Android v5 包包含 `rules.db` 和 `metadata.json`。库谱用数据库离线匹配，在线说明从 `v4` 分支读取。[0.5.2 发布文件](https://github.com/edgeval/Libatlas-Rules/tree/rules-data/releases/52) · [最新发布清单](https://github.com/edgeval/Libatlas-Rules/blob/rules-data/manifest.json)
+
+## 仓库结构
+
+| 位置 | 内容 |
 | --- | --- |
-| `native-libs/`、`activities-libs/`、`services-libs/`、`receivers-libs/`、`providers-libs/`、`actions-libs/`、`static-libs/` | 根据原生库、Android 组件和 Intent Action 识别应用使用的库与 SDK。 |
-| [`flutter_hash/`](flutter_hash/README.md) | 将 `libflutter.so` 中的引擎修订号映射到可能对应的 Flutter 发布版本。 |
-| [`chart/`](chart/README.zh-Hans.md) | 存放图表规则、SVG 图标、JSON Schema、测试和生成后的 Bundle。 |
-| `configuration/`、`cloud/` | 存放 LibChecker 读取的版本配置与规则数据。 |
+| `v4` 分支 | 规则源文件、在线说明和兼容产物。 |
+| `libraries/<UUID>.json` 和 `icons/` | 用于编辑库识别规则和 SVG 图标的源文件。 |
+| `sdk-details/` | SDK 版本识别数据，包括 Flutter 引擎映射。[SDK 详情说明](sdk-details/README.md) |
+| `chart/` | 图表规则、SVG 图标、数据规范和测试。[图表规则说明](chart/README.zh-Hans.md) |
+| `rules-data` 分支 | Android v5、通用 v5 和旧版兼容包及其发布清单。[已发布数据](https://github.com/edgeval/Libatlas-Rules/tree/rules-data) |
 
-## 参与贡献
+## 提交规则
 
-### 库识别规则
+欢迎向 `v4` 分支提交 Pull Request。新增或修正规则时，请附上准确的标识、库名或 SDK 名、开发方以及可核验的来源。可用官方文档、公开 SDK 包或可复现样本验证标识出处。如果使用应用样本，请注明应用名称和版本。多个构建共用文件名时，请提供已验证的区分标识，或标注能够确认的共同库家族。
 
-发现缺失或错误的库识别规则时，请在 [Issue 选择页面](https://github.com/LibChecker/LibChecker-Rules/issues/new/choose)中选择 **Submit new rule** 或 **Bug report**，并按照模板填写文件名、库名称、开发团队、说明与一手资料链接。有可供验证的应用时，也请附上应用名称和版本。图标仅接受 SVG 格式。
-
-私有库也可以收录。请用公开文档、官方 SDK 包或可复核的样本证明标识的来源，
-并依据可验证的信息描述用途。多个构建共用文件名时，优先使用有证据支持的
-区分标识，或标注可确认的共同库家族。
-
-### 图表规则
-
-图表规则有独立的 Schema、测试和发布流程。新规则通常先进入预览渠道，验证通过后再发布到稳定渠道。提交前请阅读完整指南：
-
-- [简体中文贡献指南](chart/README.zh-Hans.md)
-- [English contribution guide](chart/README.md)
-
-如果使用支持 Skills 的 AI Agent，可以安装仓库内的图表规则 Skill：
-
-```shell
-npx skills add LibChecker/LibChecker-Rules
-```
-
-安装与使用说明见[图表规则 Skill 指南](skills/libchecker-chart-rules/README.zh-Hans.md)。
-
-## 许可
-
-本仓库基于 [Apache License 2.0](LICENSE) 发布。
-
-## 基础规则规范源（v5）
-
-基础规则统一编辑 `libraries/<UUID>.json` 与 `icons/`；旧按名称拆分的 JSON 和
-数据库作为兼容输出保留。字段、编辑器接口、匹配与图标约束、发布及迁移审计见
-[v5 契约](docs/rules-v5-contract.md)。
+请在 `libraries/` 和 `icons/` 中修改源文件。新增图标使用 SVG 格式，可以用 `import-icon` 追加索引。字段、匹配方式和验证要求见 [v5 规则规范](docs/rules-v5-contract.md)。
 
 ```sh
 python3 tools/rules.py check
 python3 -m unittest discover -s tests -v
-python3 tools/rules.py build --output /tmp/libchecker-rules
+python3 tools/rules.py build --output /tmp/libatlas-rules
 ```
 
-编译器仅使用 Python 标准库，跨语言测试另需 Node.js 和 JDK。新增图标使用
-`import-icon` 自动追加索引。SDK 详情与图表流水线独立；新 SDK 指纹定义先保留为
-候选文件，客户端兼容发布后才能激活。
+编译器使用 Python 标准库，跨语言测试还需要 Node.js 和 JDK。图表规则有独立的预览渠道和稳定渠道。[图表贡献指南](chart/README.zh-Hans.md) · [图表规则 Skill](skills/libchecker-chart-rules/README.zh-Hans.md)
+
+## 上游与许可证
+
+库谱规则库派生自 LibChecker-Rules。感谢上游维护者与贡献者。[上游仓库](https://github.com/LibChecker/LibChecker-Rules) · [Apache License 2.0](LICENSE)
