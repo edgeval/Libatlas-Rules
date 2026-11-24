@@ -1,72 +1,39 @@
-# LibChecker-Rules
+# LibAtlas Rules
 
-[![Rules version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.rulesVersion&label=Rules&color=6f42c1&style=flat&cacheSeconds=3600)](cloud/md5/v4)
-[![Native libraries](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.nativeLibraries&label=Native%20libraries&color=0969da&style=flat&cacheSeconds=3600)](native-libs/)
-[![Activities](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.activities&label=Activities&color=1a7f37&style=flat&cacheSeconds=3600)](activities-libs/)
-[![Services](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.services&label=Services&color=bf8700&style=flat&cacheSeconds=3600)](services-libs/)
-[![Receivers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.receivers&label=Receivers&color=cf222e&style=flat&cacheSeconds=3600)](receivers-libs/)
-[![Providers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.providers&label=Providers&color=8250df&style=flat&cacheSeconds=3600)](providers-libs/)
-[![Intent actions](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.intentActions&label=Intent%20actions&color=1b7c83&style=flat&cacheSeconds=3600)](actions-libs/)
-[![Static libraries](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.staticLibraries&label=Static%20libraries&color=57606a&style=flat&cacheSeconds=3600)](static-libs/)
-[![Chart rules](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.chartRules&label=Chart%20rules&color=bf3989&style=flat&cacheSeconds=3600)](chart/rules/)
+English · [简体中文](README.zh-Hans.md)
 
-English | [简体中文](README.zh-Hans.md)
+This repository maintains the rules used by LibAtlas (库谱) to identify Android native libraries, SDKs, components, and intent actions. It also provides online library descriptions, SDK version data, and chart rules. [LibAtlas app](https://github.com/edgeval/Libatlas)
 
-This repository maintains the rules and metadata used by [LibChecker](https://github.com/LibChecker/LibChecker). It covers Android component and native library identification, Flutter engine version mappings, and declarative statistics for the chart page.
+## Rule downloads
 
-## Repository contents
+In LibAtlas, open **Settings → Rules and network → Cloud rules** to check for rule updates.
 
-| Path | Contents |
+Rule release **0.5.2** uses data version `52` and contains **3,199** identification rules. The Android v5 bundle contains `rules.db` and `metadata.json`. LibAtlas reads the database for offline matching and loads descriptions from the `v4` branch. [Release 0.5.2 files](https://github.com/edgeval/Libatlas-Rules/tree/rules-data/releases/52) · [Latest manifest](https://github.com/edgeval/Libatlas-Rules/blob/rules-data/manifest.json)
+
+## Repository layout
+
+| Location | Contents |
 | --- | --- |
-| `native-libs/`, `activities-libs/`, `services-libs/`, `receivers-libs/`, `providers-libs/`, `actions-libs/`, `static-libs/` | Identify libraries and SDKs from native libraries, Android components, and intent actions. |
-| [`flutter_hash/`](flutter_hash/README.md) | Maps engine revisions found in `libflutter.so` to possible Flutter releases. |
-| [`chart/`](chart/README.md) | Contains chart rules, SVG icons, JSON Schemas, tests, and generated bundles. |
-| `configuration/`, `cloud/` | Contains versioned configuration and rule data consumed by LibChecker. |
+| `v4` branch | Rule sources, online descriptions, and compatibility outputs. |
+| `libraries/<UUID>.json` and `icons/` | The editable source for library identification rules and SVG icons. |
+| `sdk-details/` | SDK version and detection data, including Flutter engine mappings. [SDK details guide](sdk-details/README.md) |
+| `chart/` | Chart rules, SVG icons, schemas, and tests. [Chart rules guide](chart/README.md) |
+| `rules-data` branch | Published Android v5, portable v5, and legacy v4 bundles and their manifests. [Published data](https://github.com/edgeval/Libatlas-Rules/tree/rules-data) |
 
 ## Contributing
 
-### Library identification rules
+Submit changes to `v4` through a pull request. For a new or corrected rule, include the exact identifier, the library or SDK name, the developer, and a verifiable source. An official document, a public SDK package, or a reproducible sample can establish where the identifier comes from. For a sample app, include its name and version. When multiple builds share a filename, use a verified distinguishing identifier or identify the common library family.
 
-If a library identification rule is missing or incorrect, open the [issue chooser](https://github.com/LibChecker/LibChecker-Rules/issues/new/choose) and select **Submit new rule** or **Bug report**. Follow the template and provide the filename, library name, development team, description, and a primary source. Include the app name and version when a sample is available for verification. Icons must use the SVG format.
-
-Private libraries can be included when an official document, public SDK package,
-or reproducible sample verifies the identifier's origin. Describe functions that
-have supporting evidence. For filenames shared by several builds, use a verified
-distinguishing identifier or label the common library family.
-
-### Chart rules
-
-Chart rules have their own schema, tests, and release process. New rules normally start in the preview channel and move to the stable channel after verification. Read the complete contribution guide before submitting a rule:
-
-- [English contribution guide](chart/README.md)
-- [简体中文贡献指南](chart/README.zh-Hans.md)
-
-If your AI agent supports Skills, install the chart rule Skill from this repository:
-
-```shell
-npx skills add LibChecker/LibChecker-Rules
-```
-
-See the [chart rule Skill guide](skills/libchecker-chart-rules/README.md) for installation and usage details.
-
-## License
-
-This repository is licensed under the [Apache License 2.0](LICENSE).
-
-## Canonical base rules (v5)
-
-Edit `libraries/<UUID>.json` and `icons/`; legacy per-name JSON and DB are compatibility
-outputs. The [v5 contract](docs/rules-v5-contract.md) documents editor fields,
-matching, SVG validation, manifests, migration audit and staged rollout.
+Edit the sources in `libraries/` and `icons/`. Use SVG for new icons and `import-icon` to add their index entries. See the [v5 rules contract](docs/rules-v5-contract.md) for fields, matching, and validation.
 
 ```sh
 python3 tools/rules.py check
 python3 -m unittest discover -s tests -v
-python3 tools/rules.py build --output /tmp/libchecker-rules
+python3 tools/rules.py build --output /tmp/libatlas-rules
 ```
 
-Python compilation uses only the standard library; cross-language tests also need
-Node.js and a JDK. `import-icon` validates an SVG and automatically appends its icon
-index. Generated artifacts share one source revision and dataVersion; normal source
-changes publish through the serialized own-repository workflow after merge to v4.
-SDK details and chart pipelines remain independent.
+The compiler uses the Python standard library. Cross-language tests also require Node.js and a JDK. Chart rules have their own preview and stable channels. [Chart contribution guide](chart/README.md) · [Chart rule skill](skills/libchecker-chart-rules/README.md)
+
+## Upstream and license
+
+LibAtlas Rules is derived from LibChecker-Rules. Thanks to its maintainers and contributors. [Upstream repository](https://github.com/LibChecker/LibChecker-Rules) · [Apache License 2.0](LICENSE)
